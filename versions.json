@@ -24,7 +24,8 @@
             "",
             "^3Exclusive Version Fix: ^7Fixed the issue where having more than 3 custom categories were not displayed correctly.",
             "",
-            "^3Added Skill Reset Option: ^7Added the ability to enable skill reset, which can be configured to be free, require an item, or cost in-game cash."
+            "^3Added Skill Reset Option: ^7Added the ability to enable skill reset, which can be configured to be free, require an item, or cost in-game cash.",
+            "^3Changelog Console Update: ^7A changelog for the previous version is now available directly in the server console, allowing you to easily track changes from older versions."
         ]
     }
 }
