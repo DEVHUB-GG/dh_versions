@@ -3,29 +3,16 @@
     "dh_cardance": "1.0.0",
     "dh_lib": "1.0.1",
     "dh_skillTree": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "changelog": [
-            "^3Removed Skills: ^7Due to a bug and the lack of significant impact on player behavior, the following skills have been removed from the skill tree:",
-            "[aimSpeedMultiplier_1] Aim Movement Speed I",
-            "[aimSpeedMultiplier_2] Aim Movement Speed II",
-            "[aimSpeedMultiplier_3] Aim Movement Speed III",
-            "[aimSpeedMultiplier_4] Aim Movement Speed IV",
-            "Note: If these skills are kept in any existing builds, they will no longer have any effect.",
+            "Fixed client-side export of hasUnlockedSkill.",
+            "Fixed a bug that prevented skill unlocking when two skill trees overlapped.",
+            "Added the ability to unlock skills for 0 points.",
+            "Disabled XP gain if the player is not the driver of the vehicle.",
+            "Improved centering of long subcategory names in the UI.",
             "",
-            "^3New Skills Added: ^7To replace the removed skills, the following new skills have been introduced:",
-            "[lowHpWeaponDamageMultiplier_1] Last Stand I",
-            "[lowHpWeaponDamageMultiplier_2] Last Stand II",
-            "[lowHpWeaponDamageMultiplier_3] Last Stand III",
-            "[lowHpWeaponDamageMultiplier_4] Last Stand IV",
-            "Last Stand Effect: When your HP drops below 15%, your weapon damage increases by 5% per tier.",
-            "Important: These new skills are not direct replacements for the removed ones, meaning players will need to unlock them separately in the skill tree.",
-            "",
-            "^3Fix: ^7The scaling issue with the [betterAccuracy] skill has been fixed.",
-            "",
-            "^3Exclusive Version Fix: ^7Fixed the issue where having more than 3 custom categories were not displayed correctly.",
-            "",
-            "^3Added Skill Reset Option: ^7Added the ability to enable skill reset, which can be configured to be free, require an item, or cost in-game cash.",
-            "^3Changelog Console Update: ^7A changelog for the previous version is now available directly in the server console, allowing you to easily track changes from older versions."
+            "Important Update",
+            "You can keep your configs folder."
         ]
     }
 }
