@@ -3,16 +3,12 @@
     "dh_cardance": "1.0.0",
     "dh_lib": "1.0.1",
     "dh_skillTree": {
-        "version": "1.0.3",
+        "version": "1.0.4",
         "changelog": [
-            "Fixed client-side export of hasUnlockedSkill.",
-            "Fixed a bug that prevented skill unlocking when two skill trees overlapped.",
-            "Added the ability to unlock skills for 0 points.",
-            "Disabled XP gain if the player is not the driver of the vehicle.",
-            "Improved centering of long subcategory names in the UI.",
-            "",
-            "Important Update",
-            "You can keep your configs folder."
+            "Added option to set the maximum level for each skill category.",
+            "Added option to define the skill loading order during the player loaded event.",
+            "Improved the UI display for skill levels, making it work with high levels.",
+            "Improved the rendering of svg in the UI."
         ]
     }
 }
