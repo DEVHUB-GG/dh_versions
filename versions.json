@@ -3,12 +3,10 @@
     "dh_cardance": "1.0.0",
     "dh_lib": "1.0.1",
     "dh_skillTree": {
-        "version": "1.0.4",
+        "version": "1.0.5",
         "changelog": [
-            "Added option to set the maximum level for each skill category.",
-            "Added option to define the skill loading order during the player loaded event.",
-            "Improved the UI display for skill levels, making it work with high levels.",
-            "Improved the rendering of svg in the UI."
+            "Added to translations “Required Points”",
+            "Fixed restarting script for QB version",
         ]
     }
 }
