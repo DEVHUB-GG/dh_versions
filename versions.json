@@ -8,5 +8,11 @@
             "Added to translations “Required Points”",
             "Fixed restarting script for QB version",
         ]
+    },
+    "dh_miner": {
+        "version": "1.0.0",
+        "changelog": [
+            "Initializing the script",
+        ]
     }
 }
