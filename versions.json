@@ -3,16 +3,17 @@
     "dh_cardance": "1.0.0",
     "dh_lib": "1.0.1",
     "dh_skillTree": {
-        "version": "1.0.5",
+        "version": "1.0.6",
         "changelog": [
-            "Added to translations “Required Points”",
-            "Fixed restarting script for QB version",
+            "colors.css added to HTML folder: Easily manage and change all colors in one place.",
+            "Added option for exclusive version to apply default earned XP across multiple categories.",
+            "Config now supports opening the Skill Tree using an item.",
+            "Introduced functionality to upload skill configs from other devhub scripts seamlessly.",
+            "Added new client event to open the Skill Tree through other methods."
         ]
     },
     "dh_miner": {
         "version": "1.0.0",
-        "changelog": [
-            "Initializing the script",
-        ]
+        "changelog": ["Initializing the script"]
     }
 }
