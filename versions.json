@@ -3,17 +3,24 @@
     "dh_cardance": "1.0.0",
     "dh_lib": "1.0.2",
     "dh_skillTree": {
-        "version": "1.0.6",
+        "version": "1.0.7",
         "changelog": [
-            "colors.css added to HTML folder: Easily manage and change all colors in one place.",
-            "Added option for exclusive version to apply default earned XP across multiple categories.",
-            "Config now supports opening the Skill Tree using an item.",
-            "Introduced functionality to upload skill configs from other devhub scripts seamlessly.",
-            "Added new client event to open the Skill Tree through other methods."
+            "[BETA] Added support for ultrawide and super-ultrawide resolutions.",
+            "Added one missing translation.",
+            "Ensured that external configs are loaded before player data is processed.",
+            "Increased the speed of loading external configs.",
+            "Fixed an issue where skill effect data was retrieved before external configs were loaded."
         ]
     },
     "dh_miner": {
-        "version": "1.0.0",
-        "changelog": ["Initializing the script"]
+        "version": "1.0.1",
+        "changelog": [
+            "Two new variables added to configs/shared.lua: Shared.ExtraRewardsEnabled and Shared.ExtraRewards.",
+            "These variables allow the ability to receive an extra item when mining ore, which can later be smelted into another item.",
+            "This feature doesn't impact the job itself and is just an optional addition.",
+            "If you want extra items to drop only from ores, set smeltingChance to 0.",
+            "Fixed an issue with the 2x drop skill where it was possible to collect more ore than the limit (e.g., 7 out of 6).",
+            "Fixed a bug with Skill Tree loading."
+        ]
     }
 }
