@@ -13,14 +13,20 @@
         ]
     },
     "dh_miner": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "changelog": [
-            "Two new variables added to configs/shared.lua: Shared.ExtraRewardsEnabled and Shared.ExtraRewards.",
-            "These variables allow the ability to receive an extra item when mining ore, which can later be smelted into another item.",
-            "This feature doesn't impact the job itself and is just an optional addition.",
-            "If you want extra items to drop only from ores, set smeltingChance to 0.",
-            "Fixed an issue with the 2x drop skill where it was possible to collect more ore than the limit (e.g., 7 out of 6).",
-            "Fixed a bug with Skill Tree loading."
-        ]
+            "Image for dh_drill added.",
+            "JavaScript config added for customizing number formatting and price formatting.",
+            "New variables added to shared.lua: Shared.JobRequired and Shared.QuestsEnabled.",
+            "Shared.JobRequired = false allows setting a job requirement to start work.",
+            "Shared.QuestsEnabled = true allows enabling or disabling quests.",
+            "CreateVehicle native replaced with Core.SpawnVehicle from dh_lib, now you can add car keys to spawned vehicles.",
+            "DeleteEntity native replaced with Core.DeleteVehicle from dh_lib, enabling key removal.",
+            "UI grid adjusted for fewer than 3 clothing items and fewer than 2 cars.",
+            "All SQL functions replaced with dh_lib SQL functions, making it compatible with any database script and allowing price = 0.",
+            "Option added to start work without a service vehicle (set the model to 'none' in the config).",
+            "Decimal places removed from job rewards for cleaner display.",
+            "Fixed XP and cash calculation in UI final rewards when skill tree boosts (XP boost and cash boost) are active."
+      ]
     }
 }
