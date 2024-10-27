@@ -4,29 +4,10 @@
     "dh_lib": "1.0.3",
     "dh_skillTree": {
         "version": "1.0.7",
-        "changelog": [
-            "[BETA] Added support for ultrawide and super-ultrawide resolutions.",
-            "Added one missing translation.",
-            "Ensured that external configs are loaded before player data is processed.",
-            "Increased the speed of loading external configs.",
-            "Fixed an issue where skill effect data was retrieved before external configs were loaded."
-        ]
+        "changelog": ["[BETA] Added support for ultrawide and super-ultrawide resolutions.", "Added one missing translation.", "Ensured that external configs are loaded before player data is processed.", "Increased the speed of loading external configs.", "Fixed an issue where skill effect data was retrieved before external configs were loaded."]
     },
     "dh_miner": {
-        "version": "1.0.2",
-        "changelog": [
-            "Image for dh_drill added.",
-            "JavaScript config added for customizing number formatting and price formatting.",
-            "New variables added to shared.lua: Shared.JobRequired and Shared.QuestsEnabled.",
-            "Shared.JobRequired = false allows setting a job requirement to start work.",
-            "Shared.QuestsEnabled = true allows enabling or disabling quests.",
-            "CreateVehicle native replaced with Core.SpawnVehicle from dh_lib, now you can add car keys to spawned vehicles.",
-            "DeleteEntity native replaced with Core.DeleteVehicle from dh_lib, enabling key removal.",
-            "UI grid adjusted for fewer than 3 clothing items and fewer than 2 cars.",
-            "All SQL functions replaced with dh_lib SQL functions, making it compatible with any database script and allowing price = 0.",
-            "Option added to start work without a service vehicle (set the model to 'none' in the config).",
-            "Decimal places removed from job rewards for cleaner display.",
-            "Fixed XP and cash calculation in UI final rewards when skill tree boosts (XP boost and cash boost) are active."
-      ]
+        "version": "1.0.3",
+        "changelog": ["Improved mining sound system to ensure continuous playback without interruptions.", "Updated mining mechanics: now holding LMB allows continuous mining.", "Reduced mining cooldown to 0.1 seconds for faster mining action.", "Fixed group work functionality to support more than three players without issues."]
     }
 }
