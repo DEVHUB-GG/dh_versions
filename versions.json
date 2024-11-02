@@ -3,11 +3,22 @@
     "dh_cardance": "1.0.0",
     "dh_lib": "1.0.3",
     "dh_skillTree": {
-        "version": "1.0.7",
-        "changelog": ["[BETA] Added support for ultrawide and super-ultrawide resolutions.", "Added one missing translation.", "Ensured that external configs are loaded before player data is processed.", "Increased the speed of loading external configs.", "Fixed an issue where skill effect data was retrieved before external configs were loaded."]
+        "version": "1.0.8",
+        "changelog": [
+            "New server-side export `getPlayerLevel` added for retrieving player level.",
+            "New server-side export `getPlayerXp` added for accessing player XP.",
+            "New server-side export `getPlayerPoints` added for checking player skill points.",
+            "New server-side export `getPlayerTotalXp` added for obtaining total player XP.",
+            "New server-side export `getPlayerGlobalStats` added for accessing global player statistics."
+        ]
     },
     "dh_miner": {
         "version": "1.0.3",
-        "changelog": ["Improved mining sound system to ensure continuous playback without interruptions.", "Updated mining mechanics: now holding LMB allows continuous mining.", "Reduced mining cooldown to 0.1 seconds for faster mining action.", "Fixed group work functionality to support more than three players without issues."]
+        "changelog": [
+            "Improved mining sound system to ensure continuous playback without interruptions.",
+            "Updated mining mechanics: now holding LMB allows continuous mining.",
+            "Reduced mining cooldown to 0.1 seconds for faster mining action.",
+            "Fixed group work functionality to support more than three players without issues."
+        ]
     }
 }
