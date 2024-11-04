@@ -13,12 +13,9 @@
         ]
     },
     "dh_miner": {
-        "version": "1.0.3",
+        "version": "1.0.4",
         "changelog": [
-            "Improved mining sound system to ensure continuous playback without interruptions.",
-            "Updated mining mechanics: now holding LMB allows continuous mining.",
-            "Reduced mining cooldown to 0.1 seconds for faster mining action.",
-            "Fixed group work functionality to support more than three players without issues."
+            "Added missing translations to the config."
         ]
     }
 }
