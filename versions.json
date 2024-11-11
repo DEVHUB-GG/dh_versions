@@ -3,19 +3,18 @@
     "dh_cardance": "1.0.0",
     "dh_lib": "1.0.3",
     "dh_skillTree": {
-        "version": "1.0.8",
+        "version": "1.0.9",
         "changelog": [
-            "New server-side export `getPlayerLevel` added for retrieving player level.",
-            "New server-side export `getPlayerXp` added for accessing player XP.",
-            "New server-side export `getPlayerPoints` added for checking player skill points.",
-            "New server-side export `getPlayerTotalXp` added for obtaining total player XP.",
-            "New server-side export `getPlayerGlobalStats` added for accessing global player statistics."
+            "New client export added to reload default skills: exports['dh_skillTree']:reloadDefaultSkills()",
+            "Automatic reloading of 'personal' skills on player ped change; can be disabled with Config.DisableRefreshOnPedOrPidChanged.",
+            "Config.MeleeWeapons added to configs/sh.main.lua for melee damage skill customization.",
+            "Config.DisableDefaultSkillEffects added to configs/sh.main.lua.",
+            "Config.SkillDefaultValues added to configs/sh.main.lua.",
+            "Config.DisableRefreshOnPedOrPidChanged added to configs/sh.main.lua."
         ]
     },
     "dh_miner": {
         "version": "1.0.4",
-        "changelog": [
-            "Added missing translations to the config."
-        ]
+        "changelog": ["Added missing translations to the config."]
     }
 }
