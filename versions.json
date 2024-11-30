@@ -18,7 +18,7 @@
         "version": "1.0.4",
         "changelog": ["Added missing translations to the config."]
     },
-    "dh_herbalAlchemist": {
+    "devhub_herbalAlchemist": {
         "version": "1.0.0",
         "changelog": ["Initial release"]
     },
