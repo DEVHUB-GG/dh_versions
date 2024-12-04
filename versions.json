@@ -21,9 +21,9 @@
         ]
     },
     "devhub_herbalAlchemist": {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "changelog": [
-            "Initial release"
+            "Fixed an issue where textures would break after crafting a potion."
         ]
     }
 }
