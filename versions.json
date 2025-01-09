@@ -36,7 +36,8 @@
             "Expanded README and documentation with numerous examples for using exports and listeners.",
             "Updated resource name, exports, and listeners to align with new scripts for consistency.",
             "",
-            "[Old export and listener names will continue to work, so no changes are required in existing code. Script name changes in the CFG are also unnecessary.]"
+            "[Old export and listener names will continue to work, so no changes are required in existing code. Script name changes in the CFG are also unnecessary.]",
+            "[All files should be replaced except configs/sh.skills.lua and configs/sh.main.lua. The remaining config files can be easily compared, and only the additions should be transferred. The updates are marked as 'update 2.0.0'.]"
         ]
     },
     "devhub_skillTree": {
@@ -72,7 +73,8 @@
             "Expanded README and documentation with numerous examples for using exports and listeners.",
             "Updated resource name, exports, and listeners to align with new scripts for consistency.",
             "",
-            "[Old export and listener names will continue to work, so no changes are required in existing code. Script name changes in the CFG are also unnecessary.]"
+            "[Old export and listener names will continue to work, so no changes are required in existing code. Script name changes in the CFG are also unnecessary.]",
+            "[All files should be replaced except configs/sh.skills.lua and configs/sh.main.lua. The remaining config files can be easily compared, and only the additions should be transferred. The updates are marked as 'update 2.0.0'.]"
         ]
     },
     "dh_miner": {
