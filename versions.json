@@ -41,25 +41,10 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.0.1",
+        "version": "2.0.2",
         "changelog": [
-            "New client listener devhub_skillTree:client:listener:levelUp added.",
-            "Config.DisableXpEarnWhileDead option added to block XP earning while dead, requires dh_lib:client:setDeathStatus configuration.",
-            "Config.UnlockHandlerForSkills option added for custom skill unlock requirements (e.g., requiring items).",
-            "Error sound added for skill unlock failures.",
-            "Webhook integration option added for suspected player activity logging.",
-            "Function to handle suspected cheaters added, default action kicks the player from the server.",
-            "Logs for actions like addXp, addPoints, removePoints, levelUp, unlockSkill, etc., added.",
-            "Security improvements implemented.",
-            "Additional warnings added for improper devhub_lib connection.",
-            "Sound files optimized from .wav/.mp3 to .ogg, reducing size from 1,487 KB to 135 KB.",
-            "Visual handling of skill unlock failures improved.",
-            "Fixed error on ESX for invalid command messages when opening via key mapping.",
-            "Fixed earning XP while being in water but not swimming.",
-            "Moved sounds folder to public directory to prevent filename changes after releases.",
-            "Disabled confetti animation when skill unlocking fails.",
-            " ",
-            "WARNING: Client exports addXp and addPoints are now disabled by default. To re-enable, modify configs/s.main.lua and set Config.DisableSensitiveClientExports to false. Server exports are recommended for security."
+            "Resolved a bug introduced in update 2.0.1 that caused XP to stop increasing in cases such as player death or internet loss.",
+            "For users on version 2.0.1, updating requires replacing only the 'escrowed' folder and 'fxmanifest.lua'."
         ]
     },
     "dh_miner": {
