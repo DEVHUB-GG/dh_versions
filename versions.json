@@ -69,5 +69,9 @@
     "devhub_herbalAlchemist": {
         "version": "1.0.1",
         "changelog": ["Fixed an issue where textures would break after crafting a potion."]
+    },
+    "devhub_skillSelection": {
+        "version": "1.0.0",
+        "changelog": ["Script released."]
     }
 }
