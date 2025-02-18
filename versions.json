@@ -41,13 +41,30 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.0.2",
+        "version": "2.1.2",
         "changelog": [
-            "Resolved a bug introduced in update 2.0.1 that caused XP to stop increasing in cases such as player death or internet loss.",
-            "For users on version 2.0.1, updating requires replacing only the 'escrowed' folder and 'fxmanifest.lua'."
+            "Logic added to ensure custom handler is checked only if the user has enough points and meets all requirements, allowing safe removal of items or dependencies.",
+            "Feature added to skill generator that remembers the last position of the generator box within the current edit session.",
+            "Option added to use HTML inside descriptions for custom styling.",
+            "Improved generating long configs via the generator.",
+            "Server-side optimization improved.",
+            "Reworked XP logging system: logs now accumulate XP and send a summary every ~15 minutes instead of per action.",
+            "Personal category client-side XP caching added: XP is accumulated and sent to the server after reaching a required action threshold or detecting a level-up.",
+            "Enhanced data-saving system: dynamically adjusts format at 100 and 200 players to distribute server load.",
+            "Fixed issue where some servers had problems automatically adding skill trees from other resources.",
+            "Fixed problem causing skill trees to malfunction after a relog without exiting server.",
+            "Fixed issue where free skills could not be unlocked until the user received XP or points.",
+            "Fixed generator showing an error when points were set to 0; now it allows all values greater than or equal to 0.",
+            "Fixed issue preventing connections to the first slot in the generator.",
+            "",
+            "[Modified: escrowed folder, html folder]"
         ]
     },
     "dh_miner": {
+        "version": "1.0.4",
+        "changelog": ["Added missing translations to the config."]
+    },
+    "devhub_miner": {
         "version": "1.0.4",
         "changelog": ["Added missing translations to the config."]
     },
