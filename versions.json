@@ -1,8 +1,24 @@
 {
     "dh_cartune": "1.0.0",
     "dh_cardance": "1.0.0",
-    "dh_lib": "1.0.3",
-    "devhub_lib": "1.0.3",
+    "dh_lib": "2.0.0",
+    "devhub_lib": {
+        "version": "2.0.0",
+        "changelog": [
+            "Restructured folder system: core (for core functions), html (UI files), modules (frameworks, keys, targets, fuel, etc.).",
+            "Sound playback moved to lib for easy integration with custom systems or xsound.",
+            "Model request validation added—prints warning in F8 if the model does not exist.",
+            "Auto-detection of vehicle key system implemented.",
+            "Auto-detection of vehicle fuel system implemented.",
+            "AddCoordsToTarget function added to target/c.custom.lua.",
+            "UI customization options added—change UI placement and notification type without modifying core code.",
+            "Player logs now use Steam names instead of in-game names.",
+            "Improved validation for QBCore GetFullName.",
+            "Added esx:onPlayerLogout event to ESX client.",
+            "Key and fuel system connections now handled via config.lua, no need to edit core code.",
+            "Improved devhub_lib documentation."
+        ]
+    },
     "dh_skillTree": {
         "version": "2.0.0",
         "changelog": [
@@ -61,16 +77,37 @@
         ]
     },
     "dh_miner": {
-        "version": "1.0.4",
-        "changelog": ["Added missing translations to the config."]
+        "version": "1.0.5",
+        "changelog": [
+            "Fixed a bug where a player was not reverted to their original clothes after being removed from a group during work.",
+            "Integrated the script with the new sound system from devhub_lib.",
+            "Added Shared.SoundVolume to the config and volume to config.js.",
+            "Added a notification when a player is accepted into a group.",
+            "Renamed dh_miner to devhub_miner, no further action required.",
+            "Requires devhub_lib update to version 2.0.0."
+        ]
     },
     "devhub_miner": {
-        "version": "1.0.4",
-        "changelog": ["Added missing translations to the config."]
+        "version": "1.0.5",
+        "changelog": [
+            "Fixed a bug where a player was not reverted to their original clothes after being removed from a group during work.",
+            "Integrated the script with the new sound system from devhub_lib.",
+            "Added Shared.SoundVolume to the config and volume to config.js.",
+            "Added a notification when a player is accepted into a group.",
+            "Renamed dh_miner to devhub_miner, no further action required.",
+            "Requires devhub_lib update to version 2.0.0."
+        ]
     },
     "devhub_herbalAlchemist": {
-        "version": "1.0.1",
-        "changelog": ["Fixed an issue where textures would break after crafting a potion."]
+        "version": "1.0.2",
+        "changelog": [
+            "Added the option to enable job requirements.",
+            "Integrated the script with the new sound system from devhub_lib.",
+            "Added Shared.SoundVolume to the config and volume to config.js.",
+            "Added a notification when a player is accepted into a group.",
+            "Fixed a bug where a player was not reverted to their original clothes after being removed from a group during work.",
+            "Requires devhub_lib update to version 2.0.0."
+        ]
     },
     "devhub_skillSelection": {
         "version": "1.0.0",
