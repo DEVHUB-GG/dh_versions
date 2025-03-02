@@ -78,26 +78,22 @@
         ]
     },
     "devhub_miner": {
-        "version": "1.0.5",
+        "version": "1.0.6",
         "changelog": [
-            "Fixed a bug where a player was not reverted to their original clothes after being removed from a group during work.",
-            "Integrated the script with the new sound system from devhub_lib.",
-            "Added Shared.SoundVolume to the config and volume to config.js.",
-            "Added a notification when a player is accepted into a group.",
-            "Renamed dh_miner to devhub_miner, no further action required.",
-            "Requires devhub_lib update to version 2.0.0."
-        ]
+    "New Shared.Debug option added in configs/shared.lua to help with debugging and troubleshooting in tickets.",
+    "Automatic validation of tables and procedures in the database.",
+    "Enhanced ore spawning system for better performance and reliability.",
+    "Fixed issue where vehicles and NPCs were despawning incorrectly in the mine."
+  ]
     },
     "devhub_herbalAlchemist": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "changelog": [
-            "Added the option to enable job requirements.",
-            "Integrated the script with the new sound system from devhub_lib.",
-            "Added Shared.SoundVolume to the config and volume to config.js.",
-            "Added a notification when a player is accepted into a group.",
-            "Fixed a bug where a player was not reverted to their original clothes after being removed from a group during work.",
-            "Requires devhub_lib update to version 2.0.0."
-        ]
+    "New Shared.Debug option added in configs/shared.lua (Helps diagnose issues when assisting in tickets).",
+    "Validation added for object deletion.",
+    "Automatic verification of table and procedure integrity in the database.",
+    "Fixed issue with DeleteEntity during cooking."
+  ]
     },
     "devhub_skillSelection": {
         "version": "1.0.0",
