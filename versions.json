@@ -108,6 +108,7 @@
         "changelog": [
             "Resolved a bug that caused quest progress to be counted for all group members instead of the intended player.",
             "Enhanced the debug system for better issue tracking and troubleshooting.",
+            "Added new config option allowing items to be granted upon job completion.",
             "Improved icon sizes for better performance."
         ]
     }
