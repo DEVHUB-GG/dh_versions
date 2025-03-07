@@ -80,27 +80,35 @@
     "devhub_miner": {
         "version": "1.0.6",
         "changelog": [
-    "New Shared.Debug option added in configs/shared.lua to help with debugging and troubleshooting in tickets.",
-    "Automatic validation of tables and procedures in the database.",
-    "Enhanced ore spawning system for better performance and reliability.",
-    "Fixed issue where vehicles and NPCs were despawning incorrectly in the mine."
-  ]
+            "New Shared.Debug option added in configs/shared.lua to help with debugging and troubleshooting in tickets.",
+            "Automatic validation of tables and procedures in the database.",
+            "Enhanced ore spawning system for better performance and reliability.",
+            "Fixed issue where vehicles and NPCs were despawning incorrectly in the mine."
+        ]
     },
     "devhub_herbalAlchemist": {
         "version": "1.0.3",
         "changelog": [
-    "New Shared.Debug option added in configs/shared.lua (Helps diagnose issues when assisting in tickets).",
-    "Validation added for object deletion.",
-    "Automatic verification of table and procedure integrity in the database.",
-    "Fixed issue with DeleteEntity during cooking."
-  ]
+            "New Shared.Debug option added in configs/shared.lua (Helps diagnose issues when assisting in tickets).",
+            "Validation added for object deletion.",
+            "Automatic verification of table and procedure integrity in the database.",
+            "Fixed issue with DeleteEntity during cooking."
+        ]
     },
     "devhub_skillSelection": {
-        "version": "1.0.0",
-        "changelog": ["Script released."]
+        "version": "1.0.1",
+        "changelog": [
+            "Implemented a restriction preventing skill usage when the hotbar is disabled.",
+            "New config option CustomHotBarCss added, allowing customization of hotbar parameters: position, scale, gap, displayOrder, column.",
+            "Improved icon sizes for better performance."
+        ]
     },
     "devhub_drywoodCutter": {
-        "version": "1.0.0",
-        "changelog": ["Script released."]
+        "version": "1.0.1",
+        "changelog": [
+            "Resolved a bug that caused quest progress to be counted for all group members instead of the intended player.",
+            "Enhanced the debug system for better issue tracking and troubleshooting.",
+            "Improved icon sizes for better performance."
+        ]
     }
 }
