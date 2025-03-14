@@ -106,5 +106,9 @@
     "devhub_drywoodCutter": {
         "version": "1.0.2",
         "changelog": ["Fixed some debug messages that were shown even without Shared.debug turned on.", "Handlers for peds improved, so now only the target appears in the correct ped."]
+    },
+    "devhub_3dCraftingTable": {
+        "version": "1.0.0",
+        "changelog": [""]
     }
 }
