@@ -104,12 +104,7 @@
         ]
     },
     "devhub_drywoodCutter": {
-        "version": "1.0.1",
-        "changelog": [
-            "Resolved a bug that caused quest progress to be counted for all group members instead of the intended player.",
-            "Enhanced the debug system for better issue tracking and troubleshooting.",
-            "Added new config option allowing items to be granted upon job completion.",
-            "Improved icon sizes for better performance."
-        ]
+        "version": "1.0.2",
+        "changelog": ["Fixed some debug messages that were shown even without Shared.debug turned on.", "Handlers for peds improved, so now only the target appears in the correct ped."]
     }
 }
