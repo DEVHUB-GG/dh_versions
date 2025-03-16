@@ -105,10 +105,18 @@
     },
     "devhub_drywoodCutter": {
         "version": "1.0.2",
-        "changelog": ["Fixed some debug messages that were shown even without Shared.debug turned on.", "Handlers for peds improved, so now only the target appears in the correct ped."]
+        "changelog": [
+            "Fixed some debug messages that were shown even without Shared.debug turned on.",
+            "Handlers for peds improved, so now only the target appears in the correct ped."
+        ]
     },
     "devhub_3dCraftingTable": {
-        "version": "1.0.0",
-        "changelog": [""]
+        "version": "1.1.0",
+        "changelog": [
+            "Fixed issue with props not spawning in the generator.",
+            "Fixed external event triggering for opening the crafting table.",
+            "Added prevent mechanism to avoid spawn delay on the first prop.",
+            "Added an extensive debugging system."
+        ]
     }
 }
