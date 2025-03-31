@@ -98,11 +98,10 @@
         ]
     },
     "devhub_skillSelection": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "changelog": [
-            "Implemented a restriction preventing skill usage when the hotbar is disabled.",
-            "New config option CustomHotBarCss added, allowing customization of hotbar parameters: position, scale, gap, displayOrder, column.",
-            "Improved icon sizes for better performance."
+            "New utility functions added to c.functions.lua (open source): getSceneCoords, getCoordsFromCam, makeEntityFaceEntity.",
+            "displayOrder added to the config to define the display order of skills."
         ]
     },
     "devhub_drywoodCutter": {
