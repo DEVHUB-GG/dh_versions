@@ -58,14 +58,13 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.1.4",
+        "version": "2.1.5",
+
         "changelog": [
-            "Improved editing of existing skill trees using the generator.",
-            "Confirmation popup added when deleting a skill.",
-            "New functionality in the generator allows moving skills to another position without manually copying values.",
-            "Settings section added to the generator to adjust the opacity and scale of the main popup.",
-            "Speed up saving cached XP.",
-            "Fixed an issue where cached XP was visually added even after reaching the maximum level."
+            "New open-source file `configs/c.natives.lua` added.",
+            "This file includes natives used in Personal Skills.",
+            "Allows integration with custom exports, such as anticheat exports.",
+            "Enables replacing default natives with ones tailored to your server's needs."
         ]
     },
     "dh_miner": {
