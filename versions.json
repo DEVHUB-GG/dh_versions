@@ -59,7 +59,6 @@
     },
     "devhub_skillTree": {
         "version": "2.1.5",
-
         "changelog": [
             "New open-source file `configs/c.natives.lua` added.",
             "This file includes natives used in Personal Skills.",
@@ -105,7 +104,10 @@
     },
     "devhub_drywoodCutter": {
         "version": "1.0.2",
-        "changelog": ["Fixed some debug messages that were shown even without Shared.debug turned on.", "Handlers for peds improved, so now only the target appears in the correct ped."]
+        "changelog": [
+            "Fixed some debug messages that were shown even without Shared.debug turned on.",
+            "Handlers for peds improved, so now only the target appears in the correct ped."
+        ]
     },
     "devhub_3dCraftingTable": {
         "version": "1.1.0",
@@ -114,6 +116,16 @@
             "Fixed external event triggering for opening the crafting table.",
             "Added prevent mechanism to avoid spawn delay on the first prop.",
             "Added an extensive debugging system."
+        ]
+    },
+    "devhub_gym": {
+        "version": "1.0.1",
+        "changelog": [
+            "Resolved a bug related to the Skill Tree integration.",
+            "Prop now automatically deletes when a player disconnects from the server.",
+            "Fixed duplicated minigames appearing during workouts.",
+            "Added a new config option Config.MinigamesScreenPosition to change HUD position on the screen.",
+            "Fixed an issue where the small barbell could bug out under certain conditions."
         ]
     }
 }
