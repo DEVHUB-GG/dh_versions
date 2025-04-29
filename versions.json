@@ -78,21 +78,15 @@
         ]
     },
     "devhub_miner": {
-        "version": "1.0.6",
+        "version": "1.0.7",
         "changelog": [
-            "New Shared.Debug option added in configs/shared.lua to help with debugging and troubleshooting in tickets.",
-            "Automatic validation of tables and procedures in the database.",
-            "Enhanced ore spawning system for better performance and reliability.",
-            "Fixed issue where vehicles and NPCs were despawning incorrectly in the mine."
+            "Fixed job stopping when a new group leader was selected after the previous leader left."
         ]
     },
     "devhub_herbalAlchemist": {
-        "version": "1.0.3",
+        "version": "1.0.4",
         "changelog": [
-            "New Shared.Debug option added in configs/shared.lua (Helps diagnose issues when assisting in tickets).",
-            "Validation added for object deletion.",
-            "Automatic verification of table and procedure integrity in the database.",
-            "Fixed issue with DeleteEntity during cooking."
+            "Fixed job stopping when a new group leader was selected after the previous leader left."
         ]
     },
     "devhub_skillSelection": {
@@ -103,10 +97,9 @@
         ]
     },
     "devhub_drywoodCutter": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "changelog": [
-            "Fixed some debug messages that were shown even without Shared.debug turned on.",
-            "Handlers for peds improved, so now only the target appears in the correct ped."
+            "Fixed job stopping when a new group leader was selected after the previous leader left."
         ]
     },
     "devhub_3dCraftingTable": {
