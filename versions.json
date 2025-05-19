@@ -78,8 +78,8 @@
         ]
     },
     "devhub_miner": {
-        "version": "1.0.7",
-        "changelog": ["Fixed job stopping when a new group leader was selected after the previous leader left."]
+        "version": "1.0.8",
+        "changelog": ["Fixed smelt translation for better localization.", "Fixed client-side error appearing in console while digging.", "Sound volume in config.js now affects notification volume."]
     },
     "devhub_herbalAlchemist": {
         "version": "1.0.4",
