@@ -59,7 +59,10 @@
     },
     "devhub_skillTree": {
         "version": "2.1.6",
-        "changelog": ["Fixed addPoints and removePoints exports: when triggered independently, changes were not being saved after player relog."]
+        "changelog": [
+            "Fixed addPoints and removePoints exports: when triggered independently, changes were not being saved after player relog.",
+            "To devhub_skillTree:client:listener:skillUnlocked added 3rd parameter firstUnlock, it will only be true on skill unlock and when synced on relog it will be nil."
+        ]
     },
     "dh_miner": {
         "version": "1.0.5",
