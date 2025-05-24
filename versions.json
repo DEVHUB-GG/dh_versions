@@ -58,13 +58,8 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.1.5",
-        "changelog": [
-            "New open-source file `configs/c.natives.lua` added.",
-            "This file includes natives used in Personal Skills.",
-            "Allows integration with custom exports, such as anticheat exports.",
-            "Enables replacing default natives with ones tailored to your server's needs."
-        ]
+        "version": "2.1.6",
+        "changelog": ["Fixed addPoints and removePoints exports: when triggered independently, changes were not being saved after player relog."]
     },
     "dh_miner": {
         "version": "1.0.5",
