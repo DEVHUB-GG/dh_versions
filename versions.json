@@ -58,10 +58,13 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.1.6",
+        "version": "2.1.7",
         "changelog": [
-            "Fixed addPoints and removePoints exports: when triggered independently, changes were not being saved after player relog.",
-            "To devhub_skillTree:client:listener:skillUnlocked added 3rd parameter firstUnlock, it will only be true on skill unlock and when synced on relog it will be nil."
+            "New server-side function added: clearSkillCategory(source, category).",
+            "This function completely removes XP, level, and points from the specified category.",
+            "New config option added: Config.XpCacheLimit = 20.",
+            "XpCacheLimit controls how many XP ticks are cached client-side before sending to the server.",
+            "Used in XP virtualization in personal categories to reduce server load."
         ]
     },
     "dh_miner": {
