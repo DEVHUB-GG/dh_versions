@@ -107,14 +107,16 @@
         ]
     },
     "devhub_gym": {
-        "version": "1.0.1",
+        "version": "1.1.0",
         "changelog": [
-            "Resolved a bug related to the Skill Tree integration.",
-            "Prop now automatically deletes when a player disconnects from the server.",
-            "Fixed duplicated minigames appearing during workouts.",
-            "Added a new config option Config.MinigamesScreenPosition to change HUD position on the screen.",
-            "Fixed an issue where the small barbell could bug out under certain conditions."
-        ]
+    "Ability to cancel exercises (default key: ESC).",
+    "New gymExercise statebag documented — returns `true` when the player is exercising (can be used to disable features in other scripts).",
+    "All keys are blocked while exercising.",
+    "Option to change the cancel key in `configs/client.lua`.",
+    "Sidebar Navigation added to documentation.",
+    "Ability to rotate camera with mouse during exercises.",
+    "Cursor removed during mini-games."
+  ]
     },
     "devhub_poolCleaner": {
         "version": "1.0.0",
