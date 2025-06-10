@@ -94,8 +94,11 @@
         ]
     },
     "devhub_drywoodCutter": {
-        "version": "1.0.4",
-        "changelog": ["Fixed an issue with syncing vehicle network ID between clients and server.", "Minor internal adjustments and code improvements."]
+        "version": "1.0.5",
+        "changelog": [
+            "Option to disable individual blips by setting their sprite to false in the config (no update required for existing blips).",
+            "Added new config options to control tree spawn and despawn distance."
+        ]
     },
     "devhub_3dCraftingTable": {
         "version": "1.1.0",
@@ -119,7 +122,12 @@
   ]
     },
     "devhub_poolCleaner": {
-        "version": "1.0.0",
-        "changelog": ["Script released"]
+        "version": "1.0.1",
+        "changelog": [
+            "Option to disable individual blips by setting their sprite to false. No update needed for this feature.",
+            "Group work now functions correctly for groups of 3–4 players.",
+            "Resolved an issue where the notification about subtask completion would duplicate if the task exceeded the limit.",
+            "Target system now only applies to the starting ped."
+        ]
     }
 }
