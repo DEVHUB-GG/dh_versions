@@ -58,13 +58,12 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.1.7",
+        "version": "2.1.8",
         "changelog": [
-            "New server-side function added: clearSkillCategory(source, category).",
-            "This function completely removes XP, level, and points from the specified category.",
-            "New config option added: Config.XpCacheLimit = 20.",
-            "XpCacheLimit controls how many XP ticks are cached client-side before sending to the server.",
-            "Used in XP virtualization in personal categories to reduce server load."
+            "Missing feastDamageMultiplier added to Config.SkillDefaultValues and Config.DisableDefaultSkillEffects.",
+            "Improved behavior of the feastDamageMultiplier skill for better reliability.",
+            "SetFeastDamageMultiplier function extracted to open source in c.natives.lua for easier customization.",
+            "Shooting detection has been refined to be more responsive, ensuring XP for this activity is granted more accurately."
         ]
     },
     "dh_miner": {
