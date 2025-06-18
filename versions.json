@@ -110,16 +110,14 @@
         ]
     },
     "devhub_gym": {
-        "version": "1.1.0",
-        "changelog": [
-    "Ability to cancel exercises (default key: ESC).",
-    "New gymExercise statebag documented — returns `true` when the player is exercising (can be used to disable features in other scripts).",
-    "All keys are blocked while exercising.",
-    "Option to change the cancel key in `configs/client.lua`.",
-    "Sidebar Navigation added to documentation.",
-    "Ability to rotate camera with mouse during exercises.",
-    "Cursor removed during mini-games."
+        "version": "1.1.1",
+        "changelog": {
+  "changelog": [
+    "Introduced dontSpawnProp option to Shared.Exercises: If set to true, the prop will not spawn, but the interaction will remain active, allowing players to perform the exercise without visual props.",
+    "Fixed an issue where canceling an exercise did not work correctly for certain exercise types."
   ]
+}
+
     },
     "devhub_poolCleaner": {
         "version": "1.0.1",
