@@ -4,21 +4,13 @@
     "dh_lib": "2.0.0",
     "devhub_lib": "2.0.0",
     "devhub_lib_new": {
-        "version": "2.0.0",
+        "version": "2.1.0",
         "changelog": [
-            "Restructured folder system: core (for core functions), html (UI files), modules (frameworks, keys, targets, fuel, etc.).",
-            "Sound playback moved to lib for easy integration with custom systems or xsound.",
-            "Model request validation added—prints warning in F8 if the model does not exist.",
-            "Auto-detection of vehicle key system implemented.",
-            "Auto-detection of vehicle fuel system implemented.",
-            "AddCoordsToTarget function added to target/c.custom.lua.",
-            "UI customization options added—change UI placement and notification type without modifying core code.",
-            "Player logs now use Steam names instead of in-game names.",
-            "Improved validation for QBCore GetFullName.",
-            "Added esx:onPlayerLogout event to ESX client.",
-            "Key and fuel system connections now handled via config.lua, no need to edit core code.",
-            "Improved devhub_lib documentation."
-        ]
+    "Remove Key system added to c.vehicleKeys, including several pre-made templates for quick integration.",
+    "Support for retrieving items from various inventory systems.",
+    "Visual error in xsound fixed when the specified sound did not exist.",
+    "Improved compatibility and performance of the standalone target system."
+  ]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -100,13 +92,16 @@
         ]
     },
     "devhub_3dCraftingTable": {
-        "version": "1.1.0",
+        "version": "2.0.0",
         "changelog": [
-            "Fixed issue with props not spawning in the generator.",
-            "Fixed external event triggering for opening the crafting table.",
-            "Added prevent mechanism to avoid spawn delay on the first prop.",
-            "Added an extensive debugging system."
-        ]
+    "Complete codebase rewrite for better performance and scalability.",
+    "Introduced a new recipe system while maintaining support for the legacy system.",
+    "Ability to assign multiple recipes to a single crafting table.",
+    "3D UI support for interacting with crafting tables.",
+    "Camera offset issues during the table generation process fixed.",
+    "Bug that interrupted crafting when particles were missing has been fixed.",
+    "Make sure to download the latest version of devhub_lib to ensure compatibility."
+  ]
     },
     "devhub_gym": {
         "version": "1.1.1",
