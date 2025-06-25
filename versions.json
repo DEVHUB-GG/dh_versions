@@ -92,15 +92,10 @@
         ]
     },
     "devhub_3dCraftingTable": {
-        "version": "2.0.0",
+        "version": "2.0.1",
         "changelog": [
-    "Complete codebase rewrite for better performance and scalability.",
-    "Introduced a new recipe system while maintaining support for the legacy system.",
-    "Ability to assign multiple recipes to a single crafting table.",
-    "3D UI support for interacting with crafting tables.",
-    "Camera offset issues during the table generation process fixed.",
-    "Bug that interrupted crafting when particles were missing has been fixed.",
-    "Make sure to download the latest version of devhub_lib to ensure compatibility."
+    "Fixed an issue where in some cases the item was not received after the crafting animation ended.",
+    "3D UI now automatically hides when moving away from the crafting table."
   ]
     },
     "devhub_gym": {
