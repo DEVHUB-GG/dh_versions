@@ -6,11 +6,11 @@
     "devhub_lib_new": {
         "version": "2.1.0",
         "changelog": [
-    "Remove Key system added to c.vehicleKeys, including several pre-made templates for quick integration.",
-    "Support for retrieving items from various inventory systems.",
-    "Visual error in xsound fixed when the specified sound did not exist.",
-    "Improved compatibility and performance of the standalone target system."
-  ]
+            "Remove Key system added to c.vehicleKeys, including several pre-made templates for quick integration.",
+            "Support for retrieving items from various inventory systems.",
+            "Visual error in xsound fixed when the specified sound did not exist.",
+            "Improved compatibility and performance of the standalone target system."
+        ]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -93,20 +93,16 @@
     },
     "devhub_3dCraftingTable": {
         "version": "2.0.1",
-        "changelog": [
-    "Fixed an issue where in some cases the item was not received after the crafting animation ended.",
-    "3D UI now automatically hides when moving away from the crafting table."
-  ]
+        "changelog": ["Fixed an issue where in some cases the item was not received after the crafting animation ended.", "3D UI now automatically hides when moving away from the crafting table."]
     },
     "devhub_gym": {
         "version": "1.1.1",
         "changelog": {
-  "changelog": [
-    "Introduced dontSpawnProp option to Shared.Exercises: If set to true, the prop will not spawn, but the interaction will remain active, allowing players to perform the exercise without visual props.",
-    "Fixed an issue where canceling an exercise did not work correctly for certain exercise types."
-  ]
-}
-
+            "changelog": [
+                "Introduced dontSpawnProp option to Shared.Exercises: If set to true, the prop will not spawn, but the interaction will remain active, allowing players to perform the exercise without visual props.",
+                "Fixed an issue where canceling an exercise did not work correctly for certain exercise types."
+            ]
+        }
     },
     "devhub_poolCleaner": {
         "version": "1.0.1",
@@ -116,5 +112,9 @@
             "Resolved an issue where the notification about subtask completion would duplicate if the task exceeded the limit.",
             "Target system now only applies to the starting ped."
         ]
+    },
+    "devhub_loadingscreen": {
+        "version": "1.0.0",
+        "changelog": ["Script release"]
     }
 }
