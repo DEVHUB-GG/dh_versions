@@ -85,10 +85,12 @@
         ]
     },
     "devhub_drywoodCutter": {
-        "version": "1.0.5",
+        "version": "1.1.0",
         "changelog": [
-            "Option to disable individual blips by setting their sprite to false in the config (no update required for existing blips).",
-            "Added new config options to control tree spawn and despawn distance."
+            "New configuration option Config.CutTreeBranchScale = 1.0 added to control the size of the interaction area for cutting tree branches.",
+            "Fixed a bug that blocked tree cutting during the second round of group work under a very specific sequence of actions.",
+            "Group system logic has been improved for better synchronization and reliability.",
+            "We do recommend updating!"
         ]
     },
     "devhub_3dCraftingTable": {
