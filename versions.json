@@ -94,8 +94,8 @@
         ]
     },
     "devhub_3dCraftingTable": {
-        "version": "2.0.1",
-        "changelog": ["Fixed an issue where in some cases the item was not received after the crafting animation ended.", "3D UI now automatically hides when moving away from the crafting table."]
+        "version": "2.1.0",
+        "changelog": ["Handler support added for each multi-recipe, allowing custom logic execution per recipe."]
     },
     "devhub_gym": {
         "version": "1.1.1",
