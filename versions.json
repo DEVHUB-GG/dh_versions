@@ -107,12 +107,13 @@
         }
     },
     "devhub_poolCleaner": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "changelog": [
-            "Option to disable individual blips by setting their sprite to false. No update needed for this feature.",
-            "Group work now functions correctly for groups of 3–4 players.",
-            "Resolved an issue where the notification about subtask completion would duplicate if the task exceeded the limit.",
-            "Target system now only applies to the starting ped."
+            "New 3D UI icons above trash props added (enabled by default).",
+            "New config options: Config.EnableTrash3dIcon, Config.Trash3dIconDistance, Config.Trash3dIconRefreshRate.",
+            "Added option Config.DisableFinishPopup to disable the end-job popup and replace it with a notification.",
+            "Fixed a bug that allowed multiple players to perform the same action simultaneously, slightly speeding up the job.",
+            "Script protections and security have been strengthened."
         ]
     },
     "devhub_loadingscreen": {
