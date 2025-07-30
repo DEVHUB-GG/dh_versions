@@ -56,7 +56,7 @@
             "[Added] New debug logging system for easier diagnostics and tracking issues.",
             "[Added] Support for assigning multiple UIDs to a single handler via Config.UnlockHandlerForSkills, preventing duplication when skills have the same unlock requirements.",
             "[Added] Option in the UI generator to select a pre-made skill from the sidebar.",
-            "[Added] Added possibility to split the personal category into 3 themed categories: Agility, Strength, and Shooting. Code will be available as a sneak-peak snippet.",
+            "[Added] Added possibility to split the personal category into 3 themed categories: Agility, Strength, and Shooting. Code will be available as a code snippet.",
             "[Added] New export unlockSkill added (disabled by default via Config.TurnOnUnlockSkillExport).",
             "[Added] Option to host local images/GIFs for use in the Skill Tree.",
             "[Changed] Config.DisableDefaultSkillEffects is now automatically handled by the system.",
