@@ -116,11 +116,11 @@
         "changelog": ["Handler support added for each multi-recipe, allowing custom logic execution per recipe."]
     },
     "devhub_gym": {
-        "version": "1.1.1",
+        "version": "1.1.2",
         "changelog": {
             "changelog": [
-                "Introduced dontSpawnProp option to Shared.Exercises: If set to true, the prop will not spawn, but the interaction will remain active, allowing players to perform the exercise without visual props.",
-                "Fixed an issue where canceling an exercise did not work correctly for certain exercise types."
+                "Added a new config option for minigame 3 to specify which keys should be used during the minigame.",
+                "Fixed incorrect difficulty level assignment based on the selected weight during the minigame."
             ]
         }
     },
