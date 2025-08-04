@@ -134,7 +134,7 @@
         ]
     },
     "devhub_loadingscreen": {
-        "version": "1.0.0",
-        "changelog": ["Script release"]
+        "version": "1.0.1",
+        "changelog": ["Added: Option to play music directly from a YouTube link.", "Changed: Default music playback changed from local file to YouTube link."]
     }
 }
