@@ -136,5 +136,9 @@
     "devhub_loadingscreen": {
         "version": "1.0.1",
         "changelog": ["Added: Option to play music directly from a YouTube link.", "Changed: Default music playback changed from local file to YouTube link."]
+    },
+    "devhub_hackingMinigames": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
     }
 }
