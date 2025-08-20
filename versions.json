@@ -125,13 +125,8 @@
         }
     },
     "devhub_poolCleaner": {
-        "version": "1.0.3",
-        "changelog": [
-            "Additional job protection mechanisms added to enhance security.",
-            "Option to disable the end-job popup and replace it with a notification.",
-            "Support for custom HUD placement via Config.HudPlacement, e.g. { left = 10, top = 20, snapTo = \"left\" }.",
-            "Missing translation added for one of the job popups."
-        ]
+        "version": "1.0.4",
+        "changelog": ["Better handling logic when attempting to work using an incorrect vehicle.", "One barely visible trash prop removed for improved clarity."]
     },
     "devhub_loadingscreen": {
         "version": "1.0.1",
