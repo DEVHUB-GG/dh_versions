@@ -129,8 +129,11 @@
         "changelog": ["Better handling logic when attempting to work using an incorrect vehicle.", "One barely visible trash prop removed for improved clarity."]
     },
     "devhub_loadingscreen": {
-        "version": "1.0.1",
-        "changelog": ["Added: Option to play music directly from a YouTube link.", "Changed: Default music playback changed from local file to YouTube link."]
+        "version": "1.0.2",
+        "changelog": [
+            "Introduced 3 new CSS classes to improve loading screen customization: mainLoadingText, mainLoadingProgress, and mainLoadingShadow.",
+            "By setting the display of these classes to none, you can now easily remove all content from the center of the screen for a cleaner UI."
+        ]
     },
     "devhub_hackingMinigames": {
         "version": "1.0.0",
