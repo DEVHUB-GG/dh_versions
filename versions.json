@@ -50,20 +50,13 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.2.0",
+        "version": "2.2.1",
         "changelog": [
-            "[Added] Based on community feedback, in the exclusive version you can now use all pre-made skills in any category, not just in personal.",
-            "[Added] New debug logging system for easier diagnostics and tracking issues.",
-            "[Added] Support for assigning multiple UIDs to a single handler via Config.UnlockHandlerForSkills, preventing duplication when skills have the same unlock requirements.",
-            "[Added] Option in the UI generator to select a pre-made skill from the sidebar.",
-            "[Added] Added possibility to split the personal category into 3 themed categories: Agility, Strength, and Shooting. Code will be available as a code snippet.",
-            "[Added] New export unlockSkill added (disabled by default via Config.TurnOnUnlockSkillExport).",
-            "[Added] Option to host local images/GIFs for use in the Skill Tree.",
-            "[Changed] Config.DisableDefaultSkillEffects is now automatically handled by the system.",
-            "[Changed] moremaxhp and moremaxstamina logic now scales based on default max values instead of current ones.",
-            "[Changed] Reworked the system for resetting skill categories to better handle pre-made skills across different categories.",
-            "[Changed] Optimized SetWeaponRecoilShakeAmplitude for better performance.",
-            "[Fixed] Fixed small issues related to resetting skills logic."
+            "New client export 'setPreMadeXpEarningStatus' introduced to pause XP gain from pre-made methods. This does not affect XP gained via the 'addXp' export.",
+            "New CSS classes added: 'levelUpBody' and 'levelUpBox' — now you can style the level-up box more easily via CSS.",
+            "Function 'xpAlgorithm(level, categoryUid)' added to configs/sh.main.lua, allowing custom logic for XP requirements per level.",
+            "New server event added: devhub_skillTree:server:resetSkillCategory.",
+            "New server event added: devhub_skillTree:server:clearSkillCategory."
         ]
     },
     "dh_miner": {
