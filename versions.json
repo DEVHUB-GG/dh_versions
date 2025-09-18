@@ -120,8 +120,8 @@
         }
     },
     "devhub_poolCleaner": {
-        "version": "1.0.4",
-        "changelog": ["Better handling logic when attempting to work using an incorrect vehicle.", "One barely visible trash prop removed for improved clarity."]
+        "version": "1.0.5",
+        "changelog": ["Resolved issues with server logs not being sent correctly.", "Additional debugging implemented on the server side to aid in development and troubleshooting."]
     },
     "devhub_loadingscreen": {
         "version": "1.0.2",
