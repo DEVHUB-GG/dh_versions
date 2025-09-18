@@ -50,13 +50,15 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.2.1",
+        "version": "2.2.2",
         "changelog": [
             "New client export 'setPreMadeXpEarningStatus' introduced to pause XP gain from pre-made methods. This does not affect XP gained via the 'addXp' export.",
             "New CSS classes added: 'levelUpBody' and 'levelUpBox' — now you can style the level-up box more easily via CSS.",
             "Function 'xpAlgorithm(level, categoryUid)' added to configs/sh.main.lua, allowing custom logic for XP requirements per level.",
             "New server event added: devhub_skillTree:server:resetSkillCategory.",
-            "New server event added: devhub_skillTree:server:clearSkillCategory."
+            "New server event added: devhub_skillTree:server:clearSkillCategory.",
+            "Resolved a bug with connecting lines in a specific skill pattern ('pool cleaner'), ensuring correct visual linking.",
+            "Enhanced flexibility for creating more diverse and complex skill tree patterns."
         ]
     },
     "dh_miner": {
