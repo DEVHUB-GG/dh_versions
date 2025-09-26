@@ -120,8 +120,11 @@
         }
     },
     "devhub_poolCleaner": {
-        "version": "1.0.5",
-        "changelog": ["Resolved issues with server logs not being sent correctly.", "Additional debugging implemented on the server side to aid in development and troubleshooting."]
+        "version": "1.0.6",
+        "changelog": [
+            "New anti-cheat protection system added to improve script security.",
+            "Function SuspiciousActivity(source, threatLevel) added in configs/server.lua. This function is triggered automatically when suspicious behavior is detected by the system."
+        ]
     },
     "devhub_loadingscreen": {
         "version": "1.0.2",
