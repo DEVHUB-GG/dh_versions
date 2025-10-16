@@ -50,15 +50,12 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.2.2",
+        "version": "2.2.3",
         "changelog": [
-            "New client export 'setPreMadeXpEarningStatus' introduced to pause XP gain from pre-made methods. This does not affect XP gained via the 'addXp' export.",
-            "New CSS classes added: 'levelUpBody' and 'levelUpBox' — now you can style the level-up box more easily via CSS.",
-            "Function 'xpAlgorithm(level, categoryUid)' added to configs/sh.main.lua, allowing custom logic for XP requirements per level.",
-            "New server event added: devhub_skillTree:server:resetSkillCategory.",
-            "New server event added: devhub_skillTree:server:clearSkillCategory.",
-            "Resolved a bug with connecting lines in a specific skill pattern ('pool cleaner'), ensuring correct visual linking.",
-            "Enhanced flexibility for creating more diverse and complex skill tree patterns."
+            "Config.SkillReset now supports a new reset type: 'clear', which resets all skills and removes points, level, and XP. Default remains 'reset'.",
+            "Full number of skill points earned is now displayed in the UI, even when exceeding 10.",
+            "Added new server-side listener: devhub_skillTree:server:listener:skillReset.",
+            "Added new server-side listener: devhub_skillTree:server:listener:skillUnlocked."
         ]
     },
     "dh_miner": {
@@ -138,8 +135,12 @@
         "changelog": ["Initial release"]
     },
     "devhub_minigames": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+            "Translations added to support multiple languages.",
+            "Automatic closure of the active minigame if the player presses Escape or Backspace.",
+            "Visual enhancements to Minigame 5 for easier identification of highlighted blocks."
+        ]
     },
     "devhub_laptop": {
         "version": "1.0.0",
