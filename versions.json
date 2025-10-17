@@ -124,11 +124,8 @@
         ]
     },
     "devhub_loadingscreen": {
-        "version": "1.0.2",
-        "changelog": [
-            "Introduced 3 new CSS classes to improve loading screen customization: mainLoadingText, mainLoadingProgress, and mainLoadingShadow.",
-            "By setting the display of these classes to none, you can now easily remove all content from the center of the screen for a cleaner UI."
-        ]
+        "version": "1.0.3",
+        "changelog": ["Improved team display animation for a smoother and more polished user experience."]
     },
     "devhub_hackingMinigames": {
         "version": "1.0.0",
