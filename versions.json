@@ -50,12 +50,10 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.2.3",
+        "version": "2.2.4",
         "changelog": [
-            "Config.SkillReset now supports a new reset type: 'clear', which resets all skills and removes points, level, and XP. Default remains 'reset'.",
-            "Full number of skill points earned is now displayed in the UI, even when exceeding 10.",
-            "Added new server-side listener: devhub_skillTree:server:listener:skillReset.",
-            "Added new server-side listener: devhub_skillTree:server:listener:skillUnlocked."
+            "Resolved an issue in Config.UnlockHandlerForSkills where using multiple UID syntax displayed the UI message but failed to trigger the correct handler.",
+            "Level-up UI message is now hidden when players receive XP in a category they do not have access to via Config.CategoryVisibilityHandler. XP and levels are still recorded, but it is recommended to add checks to avoid granting XP to unauthorized players."
         ]
     },
     "dh_miner": {
