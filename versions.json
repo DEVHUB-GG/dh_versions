@@ -77,13 +77,15 @@
         ]
     },
     "devhub_herbalAlchemist": {
-        "version": "1.0.5",
+        "version": "1.1.0",
+        {
         "changelog": [
-            "Additional job protection mechanisms added to enhance security.",
-            "Option to disable the end-job popup and replace it with a notification.",
-            "Support for custom HUD placement via Config.HudPlacement, e.g. { left = 10, top = 20, snapTo = \"left\" }.",
-            "Missing translation added for one of the job popups."
-        ]
+            "Option to enable glow effects for pickup props (enabled by default).",
+            "Can be disabled in configs/client.lua by setting Config.EnableGlowEffect = false.",
+            "Several additional security measures implemented.",
+            "Random issue with DeleteEntity causing deletion errors has been resolved."
+          ]
+        }
     },
     "devhub_skillSelection": {
         "version": "1.0.2",
