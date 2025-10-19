@@ -83,7 +83,7 @@
             "Can be disabled in configs/client.lua by setting Config.EnableGlowEffect = false.",
             "Several additional security measures implemented.",
             "Random issue with DeleteEntity causing deletion errors has been resolved."
-          ]
+        ]
     },
     "devhub_skillSelection": {
         "version": "1.0.2",
@@ -93,13 +93,8 @@
         ]
     },
     "devhub_drywoodCutter": {
-        "version": "1.1.1",
-        "changelog": [
-            "Additional job protection mechanisms added to enhance security.",
-            "Option to disable the end-job popup and replace it with a notification.",
-            "Support for custom HUD placement via Config.HudPlacement, e.g. { left = 10, top = 20, snapTo = \"left\" }.",
-            "Missing translation added for one of the job popups."
-        ]
+        "version": "1.1.2",
+        "changelog": ["Server-side function CustomReward(source, level) added. This function executes upon job completion, enabling custom reward logic based on player level."]
     },
     "devhub_3dCraftingTable": {
         "version": "2.1.0",
@@ -115,11 +110,8 @@
         }
     },
     "devhub_poolCleaner": {
-        "version": "1.0.6",
-        "changelog": [
-            "New anti-cheat protection system added to improve script security.",
-            "Function SuspiciousActivity(source, threatLevel) added in configs/server.lua. This function is triggered automatically when suspicious behavior is detected by the system."
-        ]
+        "version": "1.0.7",
+        "changelog": ["Server-side function CustomReward(source, level) added. This function executes upon job completion, enabling custom reward logic based on player level."]
     },
     "devhub_loadingscreen": {
         "version": "1.0.3",
