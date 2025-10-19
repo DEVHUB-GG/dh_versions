@@ -46,14 +46,14 @@
             "Updated resource name, exports, and listeners to align with new scripts for consistency.",
             "",
             "[Old export and listener names will continue to work, so no changes are required in existing code. Script name changes in the CFG are also unnecessary.]",
-            "[All files should be replaced except configs/sh.skills.lua and configs/sh.main.lua. The remaining config files can be easily compared, and only the additions should be transferred. The updates are marked as 'update 2.0.0'.]"
+            "[All files should be replaced except configs/sh.skills.lua and configs/sh.main.lua. The remaining config files can be easily compared, and only the additions should be transferred. The up...]"
         ]
     },
     "devhub_skillTree": {
         "version": "2.2.4",
         "changelog": [
             "Resolved an issue in Config.UnlockHandlerForSkills where using multiple UID syntax displayed the UI message but failed to trigger the correct handler.",
-            "Level-up UI message is now hidden when players receive XP in a category they do not have access to via Config.CategoryVisibilityHandler. XP and levels are still recorded, but it is recommended to add checks to avoid granting XP to unauthorized players."
+            "Level-up UI message is now hidden when players receive XP in a category they do not have access to via Config.CategoryVisibilityHandler. XP and levels are still recorded, but it is recomm[...]"
         ]
     },
     "dh_miner": {
@@ -83,8 +83,7 @@
             "Can be disabled in configs/client.lua by setting Config.EnableGlowEffect = false.",
             "Several additional security measures implemented.",
             "Random issue with DeleteEntity causing deletion errors has been resolved."
-          ]
-        }
+        ]
     },
     "devhub_skillSelection": {
         "version": "1.0.2",
@@ -108,12 +107,10 @@
     },
     "devhub_gym": {
         "version": "1.1.2",
-        "changelog": {
-            "changelog": [
-                "Added a new config option for minigame 3 to specify which keys should be used during the minigame.",
-                "Fixed incorrect difficulty level assignment based on the selected weight during the minigame."
-            ]
-        }
+        "changelog": [
+            "Added a new config option for minigame 3 to specify which keys should be used during the minigame.",
+            "Fixed incorrect difficulty level assignment based on the selected weight during the minigame."
+        ]
     },
     "devhub_poolCleaner": {
         "version": "1.0.6",
