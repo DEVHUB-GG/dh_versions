@@ -78,7 +78,6 @@
     },
     "devhub_herbalAlchemist": {
         "version": "1.1.0",
-        {
         "changelog": [
             "Option to enable glow effects for pickup props (enabled by default).",
             "Can be disabled in configs/client.lua by setting Config.EnableGlowEffect = false.",
