@@ -84,7 +84,6 @@
             "Several additional security measures implemented.",
             "Random issue with DeleteEntity causing deletion errors has been resolved."
           ]
-        }
     },
     "devhub_skillSelection": {
         "version": "1.0.2",
