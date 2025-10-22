@@ -50,10 +50,12 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.2.4",
+        "version": "2.2.5",
         "changelog": [
-            "Resolved an issue in Config.UnlockHandlerForSkills where using multiple UID syntax displayed the UI message but failed to trigger the correct handler.",
-            "Level-up UI message is now hidden when players receive XP in a category they do not have access to via Config.CategoryVisibilityHandler. XP and levels are still recorded, but it is recommended to add checks to avoid granting XP to unauthorized players."
+            "Added automatic system to synchronize cached client XP 2 minutes before a scheduled txAdmin restart.",
+            "Added client event 'devhub_skillTree:client:forceSyncOfCachedXp' to manually trigger synchronization of cached XP.",
+            "Two development commands added (commented out by default) in configs/s.main.lua: '/addXp [category] [amount]' and '/addPoints [category] [amount]'.",
+            "Commands are disabled by default due to lack of restriction checks and are intended only for development use until the next devhub_lib update adds proper security."
         ]
     },
     "dh_miner": {
