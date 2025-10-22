@@ -88,10 +88,11 @@
         ]
     },
     "devhub_skillSelection": {
-        "version": "1.0.2",
+        "version": "1.1.0",
         "changelog": [
-            "New utility functions added to c.functions.lua (open source): getSceneCoords, getCoordsFromCam, makeEntityFaceEntity.",
-            "displayOrder added to the config to define the display order of skills."
+            "Two free pre-configured skills added in collaboration with our partner RKL.",
+            "Available for free download from the RKL store.",
+            "Fully compatible and ready to use in the script."
         ]
     },
     "devhub_drywoodCutter": {
