@@ -124,6 +124,10 @@
         "version": "1.0.0",
         "changelog": ["Initial release"]
     },
+    "devhub_craftingMinigames": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
     "devhub_minigames": {
         "version": "1.0.1",
         "changelog": [
