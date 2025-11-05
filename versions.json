@@ -139,6 +139,18 @@
         "version": "1.0.0",
         "changelog": ["Initial release"]
     },
+    "devhub_airdrop": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_houseRobbery": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_truckRobbery": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
     "devhub_racing": {
         "version": "1.0.0",
         "changelog": ["Initial release"]
