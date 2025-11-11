@@ -4,12 +4,12 @@
   "dh_lib": "2.0.0",
   "devhub_lib": "2.0.0",
   "devhub_lib_new": {
-    "version": "2.1.0",
+    "version": "2.2.0",
     "changelog": [
-      "Remove Key system added to c.vehicleKeys, including several pre-made templates for quick integration.",
-      "Support for retrieving items from various inventory systems.",
-      "Visual error in xsound fixed when the specified sound did not exist.",
-      "Improved compatibility and performance of the standalone target system."
+      "Introduced new item carry system modules for client and server",
+      "Added popup form functionality to the UI and client functions.",
+      "Updated config to remove unused inventory options and disabled development mode.",
+      "Added routing bucket server events, improved script name validation, and updated fxmanifest for escrow ignore"
     ]
   },
   "dh_skillTree": {
