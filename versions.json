@@ -1,179 +1,160 @@
 {
-  "dh_cartune": "1.0.0",
-  "dh_cardance": "1.0.1",
-  "dh_lib": "2.0.0",
-  "devhub_lib": "2.0.0",
-  "devhub_lib_new": {
-    "version": "2.2.0",
-    "changelog": [
-      "Introduced new item carry system modules for client and server",
-      "Added popup form functionality to the UI and client functions.",
-      "Updated config to remove unused inventory options and disabled development mode.",
-      "Added routing bucket server events, improved script name validation, and updated fxmanifest for escrow ignore"
-    ]
-  },
-  "dh_skillTree": {
-    "version": "2.0.0",
-    "changelog": [
-      "Added ability to connect images in place of skill icons.",
-      "Added tooltips added to the Skill Tree generator to clarify the purpose of each parameter.",
-      "Added new option to hide category visibility for specific users: Config.CategoryVisibilityHandler.",
-      "Added functionality to remove XP within the current level range without reducing the level.",
-      "Added server-side exports: removePoints and removeXp.",
-      "Added uI configuration to adjust sound volume and customize number formatting.",
-      "Added text formatting for XP numbers in the UI.",
-      "Added missing translations in the Skill Tree generator.",
-      "Added client-side export: closeSkillTree.",
-      "Added server-side export: getUnlockedSkills.",
-      "Added client-side export: getConfig.",
-      "Added new options in the generator for skill tree customization.",
-      "Added system to block unlocking of certain skills if another skill is unlocked.",
-      "Added additional animations in the UI, such as confetti upon unlocking a skill.",
-      "Added highlight color changed to the primary theme color.",
-      "Added summary of missed errors added during the save attempt in the generator.",
-      "Fixed cached keybind issue for opening the menu via keybind.",
-      "Fixed skill category selection centering in the top panel.",
-      "Fixed incorrectly displayed warning about duplicate UID in the generator when replacing a previously assigned UID.",
-      "Fixed issue where opening a new skill info window replaced information in an already open window.",
-      "Resolved an issue that was causing the Herbal Skill Tree to fail loading occasionally",
-      "Fixed sound not working in certain cases.",
-      "Improved rendering performance of various Skill Tree UI components.",
-      "Improved validation of already-used categories in the generator.",
-      "Improved validation of used UIDs, points, and skill effects.",
-      "Improved highlighting of skills with errors or missing required data in the generator.",
-      "Renamed parameters in exports and listeners for better intuitiveness.",
-      "Expanded README and documentation with numerous examples for using exports and listeners.",
-      "Updated resource name, exports, and listeners to align with new scripts for consistency.",
-      "",
-      "[Old export and listener names will continue to work, so no changes are required in existing code. Script name changes in the CFG are also unnecessary.]",
-      "[All files should be replaced except configs/sh.skills.lua and configs/sh.main.lua. The remaining config files can be easily compared, and only the additions should be transferred. The updates are marked as 'update 2.0.0'.]"
-    ]
-  },
-  "devhub_skillTree": {
-    "version": "2.2.5",
-    "changelog": [
-      "Added automatic system to synchronize cached client XP 2 minutes before a scheduled txAdmin restart.",
-      "Added client event 'devhub_skillTree:client:forceSyncOfCachedXp' to manually trigger synchronization of cached XP.",
-      "Two development commands added (commented out by default) in configs/s.main.lua: '/addXp [category] [amount]' and '/addPoints [category] [amount]'.",
-      "Commands are disabled by default due to lack of restriction checks and are intended only for development use until the next devhub_lib update adds proper security."
-    ]
-  },
-  "dh_miner": {
-    "version": "1.0.5",
-    "changelog": [
-      "Fixed a bug where a player was not reverted to their original clothes after being removed from a group during work.",
-      "Integrated the script with the new sound system from devhub_lib.",
-      "Added Shared.SoundVolume to the config and volume to config.js.",
-      "Added a notification when a player is accepted into a group.",
-      "Renamed dh_miner to devhub_miner, no further action required.",
-      "Requires devhub_lib update to version 2.0.0."
-    ]
-  },
-  "devhub_miner": {
-    "version": "1.1.0",
-    "changelog": [
-      "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
-      "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
-    ]
-  },
-  "devhub_herbalAlchemist": {
-    "version": "1.1.1",
-    "changelog": [
-      "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
-      "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
-    ]
-  },
-  "devhub_skillSelection": {
-    "version": "1.1.0",
-    "changelog": [
-      "Two free pre-configured skills added in collaboration with our partner RKL.",
-      "Available for free download from the RKL store.",
-      "Fully compatible and ready to use in the script."
-    ]
-  },
-  "devhub_drywoodCutter": {
-    "version": "1.1.3",
-    "changelog": [
-      "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
-      "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
-    ]
-  },
-  "devhub_3dCraftingTable": {
-    "version": "2.1.0",
-    "changelog": [
-      "Handler support added for each multi-recipe, allowing custom logic execution per recipe."
-    ]
-  },
-  "devhub_gym": {
-    "version": "1.1.2",
-    "changelog": {
-      "changelog": [
-        "Added a new config option for minigame 3 to specify which keys should be used during the minigame.",
-        "Fixed incorrect difficulty level assignment based on the selected weight during the minigame."
-      ]
+    "dh_cartune": "1.0.0",
+    "dh_cardance": "1.0.1",
+    "dh_lib": "2.0.0",
+    "devhub_lib": "2.0.0",
+    "devhub_lib_new": {
+        "version": "2.2.0",
+        "changelog": [
+            "Introduced new item carry system modules for client and server",
+            "Added popup form functionality to the UI and client functions.",
+            "Updated config to remove unused inventory options and disabled development mode.",
+            "Added routing bucket server events, improved script name validation, and updated fxmanifest for escrow ignore"
+        ]
+    },
+    "dh_skillTree": {
+        "version": "2.0.0",
+        "changelog": [
+            "Added ability to connect images in place of skill icons.",
+            "Added tooltips added to the Skill Tree generator to clarify the purpose of each parameter.",
+            "Added new option to hide category visibility for specific users: Config.CategoryVisibilityHandler.",
+            "Added functionality to remove XP within the current level range without reducing the level.",
+            "Added server-side exports: removePoints and removeXp.",
+            "Added uI configuration to adjust sound volume and customize number formatting.",
+            "Added text formatting for XP numbers in the UI.",
+            "Added missing translations in the Skill Tree generator.",
+            "Added client-side export: closeSkillTree.",
+            "Added server-side export: getUnlockedSkills.",
+            "Added client-side export: getConfig.",
+            "Added new options in the generator for skill tree customization.",
+            "Added system to block unlocking of certain skills if another skill is unlocked.",
+            "Added additional animations in the UI, such as confetti upon unlocking a skill.",
+            "Added highlight color changed to the primary theme color.",
+            "Added summary of missed errors added during the save attempt in the generator.",
+            "Fixed cached keybind issue for opening the menu via keybind.",
+            "Fixed skill category selection centering in the top panel.",
+            "Fixed incorrectly displayed warning about duplicate UID in the generator when replacing a previously assigned UID.",
+            "Fixed issue where opening a new skill info window replaced information in an already open window.",
+            "Resolved an issue that was causing the Herbal Skill Tree to fail loading occasionally",
+            "Fixed sound not working in certain cases.",
+            "Improved rendering performance of various Skill Tree UI components.",
+            "Improved validation of already-used categories in the generator.",
+            "Improved validation of used UIDs, points, and skill effects.",
+            "Improved highlighting of skills with errors or missing required data in the generator.",
+            "Renamed parameters in exports and listeners for better intuitiveness.",
+            "Expanded README and documentation with numerous examples for using exports and listeners.",
+            "Updated resource name, exports, and listeners to align with new scripts for consistency.",
+            "",
+            "[Old export and listener names will continue to work, so no changes are required in existing code. Script name changes in the CFG are also unnecessary.]",
+            "[All files should be replaced except configs/sh.skills.lua and configs/sh.main.lua. The remaining config files can be easily compared, and only the additions should be transferred. The updates are marked as 'update 2.0.0'.]"
+        ]
+    },
+    "devhub_skillTree": {
+        "version": "2.2.5",
+        "changelog": [
+            "Added automatic system to synchronize cached client XP 2 minutes before a scheduled txAdmin restart.",
+            "Added client event 'devhub_skillTree:client:forceSyncOfCachedXp' to manually trigger synchronization of cached XP.",
+            "Two development commands added (commented out by default) in configs/s.main.lua: '/addXp [category] [amount]' and '/addPoints [category] [amount]'.",
+            "Commands are disabled by default due to lack of restriction checks and are intended only for development use until the next devhub_lib update adds proper security."
+        ]
+    },
+    "dh_miner": {
+        "version": "1.0.5",
+        "changelog": [
+            "Fixed a bug where a player was not reverted to their original clothes after being removed from a group during work.",
+            "Integrated the script with the new sound system from devhub_lib.",
+            "Added Shared.SoundVolume to the config and volume to config.js.",
+            "Added a notification when a player is accepted into a group.",
+            "Renamed dh_miner to devhub_miner, no further action required.",
+            "Requires devhub_lib update to version 2.0.0."
+        ]
+    },
+    "devhub_miner": {
+        "version": "1.1.0",
+        "changelog": [
+            "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
+            "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
+        ]
+    },
+    "devhub_herbalAlchemist": {
+        "version": "1.1.1",
+        "changelog": [
+            "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
+            "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
+        ]
+    },
+    "devhub_skillSelection": {
+        "version": "1.1.1",
+        "changelog": [
+            "New config option Config.UseIdentifier added to allow saving skills using player identifiers, enabling unique skill sets per character.",
+            "Blocked the ability to delete or move a skill that is currently on cooldown.",
+            "Improved loading performance of the built-in hotbar system."
+        ]
+    },
+    "devhub_drywoodCutter": {
+        "version": "1.1.3",
+        "changelog": [
+            "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
+            "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
+        ]
+    },
+    "devhub_3dCraftingTable": {
+        "version": "2.1.0",
+        "changelog": ["Handler support added for each multi-recipe, allowing custom logic execution per recipe."]
+    },
+    "devhub_gym": {
+        "version": "1.1.2",
+        "changelog": {
+            "changelog": [
+                "Added a new config option for minigame 3 to specify which keys should be used during the minigame.",
+                "Fixed incorrect difficulty level assignment based on the selected weight during the minigame."
+            ]
+        }
+    },
+    "devhub_poolCleaner": {
+        "version": "1.0.8",
+        "changelog": [
+            "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
+            "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
+        ]
+    },
+    "devhub_loadingscreen": {
+        "version": "1.0.4",
+        "changelog": ["Enhanced support for local sound and video files in the loading screen.", "YouTube video and sounds is no longer supported."]
+    },
+    "devhub_hackingMinigames": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_craftingMinigames": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_minigames": {
+        "version": "1.0.2",
+        "changelog": [
+            "New third parameter overrideSettings added to the exported function, allowing you to override config settings dynamically.",
+            "The overrideSettings must be passed as a table following the same structure as defined in the original config."
+        ]
+    },
+    "devhub_laptop": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_airDrops": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_houseRobbery": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_truckRobbery": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
+    "devhub_racing": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
     }
-  },
-  "devhub_poolCleaner": {
-    "version": "1.0.8",
-    "changelog": [
-      "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
-      "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
-    ]
-  },
-  "devhub_loadingscreen": {
-    "version": "1.0.4",
-    "changelog": [
-      "Enhanced support for local sound and video files in the loading screen.",
-      "YouTube video and sounds is no longer supported."
-    ]
-  },
-  "devhub_hackingMinigames": {
-    "version": "1.0.0",
-    "changelog": [
-      "Initial release"
-    ]
-  },
-  "devhub_craftingMinigames": {
-    "version": "1.0.0",
-    "changelog": [
-      "Initial release"
-    ]
-  },
-  "devhub_minigames": {
-    "version": "1.0.2",
-    "changelog": [
-      "New third parameter overrideSettings added to the exported function, allowing you to override config settings dynamically.",
-      "The overrideSettings must be passed as a table following the same structure as defined in the original config."
-    ]
-  },
-  "devhub_laptop": {
-    "version": "1.0.0",
-    "changelog": [
-      "Initial release"
-    ]
-  },
-  "devhub_airDrops": {
-    "version": "1.0.0",
-    "changelog": [
-      "Initial release"
-    ]
-  },
-  "devhub_houseRobbery": {
-    "version": "1.0.0",
-    "changelog": [
-      "Initial release"
-    ]
-  },
-  "devhub_truckRobbery": {
-    "version": "1.0.0",
-    "changelog": [
-      "Initial release"
-    ]
-  },
-  "devhub_racing": {
-    "version": "1.0.0",
-    "changelog": [
-      "Initial release"
-    ]
-  }
 }
