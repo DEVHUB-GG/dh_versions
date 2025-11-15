@@ -138,8 +138,13 @@
         ]
     },
     "devhub_laptop": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+            "New hover buttons added to the bottom taskbar for opened apps: Center App and Close App.",
+            "Buttons appear when hovering over an app icon in the taskbar, allowing quick access to center or close the app.",
+            "Introduced mainDiv class to the laptop UI, enabling layout adjustments for ultra-wide monitors.",
+            "Fixed issue with sound not playing"
+        ]
     },
     "devhub_airDrops": {
         "version": "1.0.0",
@@ -154,7 +159,13 @@
         "changelog": ["Initial release"]
     },
     "devhub_racing": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+            "SQL conversion system implemented to migrate data from other racing scripts.",
+            "Currently supported scripts: AV Racing (/racingConvert:av) and Rahe Racing (/racingConvert:rahe).",
+            "Supported conversions: User Profiles (available now), Maps (planned for future update).",
+            "If you're using a different racing script, feel free to contact us for support.",
+            "New configuration option Config.Text3dFont added to allow font customization in 3D text displays."
+        ]
     }
 }
