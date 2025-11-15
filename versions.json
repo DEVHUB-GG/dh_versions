@@ -165,7 +165,10 @@
             "Currently supported scripts: AV Racing (/racingConvert:av) and Rahe Racing (/racingConvert:rahe).",
             "Supported conversions: User Profiles (available now), Maps (planned for future update).",
             "If you're using a different racing script, feel free to contact us for support.",
-            "New configuration option Config.Text3dFont added to allow font customization in 3D text displays."
+            "New configuration option Config.Text3dFont added to allow font customization in 3D text displays.",
+            "New Config.JoinRace section added to control distance-based behavior for race joining UI:",
+            "showRaceUi: distance at which the join UI is shown.",
+            "showJoinButton: distance required to press the join button."
         ]
     }
 }
