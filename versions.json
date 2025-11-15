@@ -4,13 +4,14 @@
     "dh_lib": "2.0.0",
     "devhub_lib": "2.0.0",
     "devhub_lib_new": {
-        "version": "2.2.0",
+        "version": "2.2.1",
         "changelog": [
-            "Introduced new item carry system modules for client and server",
-            "Added popup form functionality to the UI and client functions.",
-            "Updated config to remove unused inventory options and disabled development mode.",
-            "Added routing bucket server events, improved script name validation, and updated fxmanifest for escrow ignore"
-        ]
+    "Added 'vrp' as a valid target system in config.lua.",
+    "Updated c.vrp.lua to activate only when VRP target is selected.",
+    "Introduced RemoveCoordsFromTarget function to the custom target API.",
+    "Updated ox_target integration to include zone name in targeting.",
+    "Corrected argument order in ESX's playerDropped event.",
+  ]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -155,8 +156,12 @@
         "changelog": ["Initial release"]
     },
     "devhub_truckRobbery": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+    "Blip added to the truck for better tracking during missions.",
+    "Fixed an issue where the truck could sometimes disappear unexpectedly.",
+    "Reward system modified to provide more balanced and reliable item randomization."
+  ]
     },
     "devhub_racing": {
         "version": "1.0.1",
