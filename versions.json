@@ -4,14 +4,11 @@
     "dh_lib": "2.0.0",
     "devhub_lib": "2.0.0",
     "devhub_lib_new": {
-        "version": "2.2.1",
+        "version": "2.2.2",
         "changelog": [
-    "Added 'vrp' as a valid target system in config.lua.",
-    "Updated c.vrp.lua to activate only when VRP target is selected.",
-    "Introduced RemoveCoordsFromTarget function to the custom target API.",
-    "Updated ox_target integration to include zone name in targeting.",
-    "Corrected argument order in ESX's playerDropped event.",
-  ]
+      "Updated all target system modules to support passing multiple options to target zones, enabling more flexible interaction possibilities.",
+      "Refactored AddCoordsToTarget functions in ox_target, qb_target, standalone, and vrp modules to handle arrays of interaction options."
+    ]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -152,8 +149,10 @@
         "changelog": ["Initial release"]
     },
     "devhub_houseRobbery": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+      "Resolved an issue with the target system for the QB framework."
+    ]
     },
     "devhub_truckRobbery": {
         "version": "1.0.1",
