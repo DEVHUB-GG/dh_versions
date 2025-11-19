@@ -174,5 +174,12 @@
             "showRaceUi: distance at which the join UI is shown.",
             "showJoinButton: distance required to press the join button."
         ]
+    },
+    "devhub_radio": {
+        "version": "1.0.1",
+        "changelog": [
+    "URGENT FIX: Critical issue resolved affecting radio functionality.",
+    "Unnecessary debug print statements have been removed to clean up console output."
+  ]
     }
 }
