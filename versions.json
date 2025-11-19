@@ -6,9 +6,9 @@
     "devhub_lib_new": {
         "version": "2.2.2",
         "changelog": [
-      "Updated all target system modules to support passing multiple options to target zones, enabling more flexible interaction possibilities.",
-      "Refactored AddCoordsToTarget functions in ox_target, qb_target, standalone, and vrp modules to handle arrays of interaction options."
-    ]
+            "Updated all target system modules to support passing multiple options to target zones, enabling more flexible interaction possibilities.",
+            "Refactored AddCoordsToTarget functions in ox_target, qb_target, standalone, and vrp modules to handle arrays of interaction options."
+        ]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -117,8 +117,12 @@
         ]
     },
     "devhub_loadingscreen": {
-        "version": "1.0.4",
-        "changelog": ["Enhanced support for local sound and video files in the loading screen.", "YouTube video and sounds is no longer supported."]
+        "version": "1.0.5",
+        "changelog": [
+            "Error 'ERR_REQUEST_RANGE_NOT_SATISFIABLE' caused by the default .ogg music file has been fixed.",
+            "Default .ogg music file replaced with a .mp3 version (different song).",
+            "User sound volume is now saved in local storage, so users only need to set it once."
+        ]
     },
     "devhub_hackingMinigames": {
         "version": "1.0.0",
@@ -150,17 +154,15 @@
     },
     "devhub_houseRobbery": {
         "version": "1.0.1",
-        "changelog": [
-      "Resolved an issue with the target system for the QB framework."
-    ]
+        "changelog": ["Resolved an issue with the target system for the QB framework."]
     },
     "devhub_truckRobbery": {
         "version": "1.0.1",
         "changelog": [
-    "Blip added to the truck for better tracking during missions.",
-    "Fixed an issue where the truck could sometimes disappear unexpectedly.",
-    "Reward system modified to provide more balanced and reliable item randomization."
-  ]
+            "Blip added to the truck for better tracking during missions.",
+            "Fixed an issue where the truck could sometimes disappear unexpectedly.",
+            "Reward system modified to provide more balanced and reliable item randomization."
+        ]
     },
     "devhub_racing": {
         "version": "1.0.1",
@@ -177,9 +179,6 @@
     },
     "devhub_radio": {
         "version": "1.0.1",
-        "changelog": [
-    "URGENT FIX: Critical issue resolved affecting radio functionality.",
-    "Unnecessary debug print statements have been removed to clean up console output."
-  ]
+        "changelog": ["URGENT FIX: Critical issue resolved affecting radio functionality.", "Unnecessary debug print statements have been removed to clean up console output."]
     }
 }
