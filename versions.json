@@ -140,13 +140,9 @@
         ]
     },
     "devhub_laptop": {
-        "version": "1.0.1",
-        "changelog": [
-            "New hover buttons added to the bottom taskbar for opened apps: Center App and Close App.",
-            "Buttons appear when hovering over an app icon in the taskbar, allowing quick access to center or close the app.",
-            "Introduced mainDiv class to the laptop UI, enabling layout adjustments for ultra-wide monitors.",
-            "Fixed issue with sound not playing"
-        ]
+        "version": "1.0.2",
+
+        "changelog": ["Fixed issue with claiming the correct amount of items from Crime Traders rewards.", "Fixed a bug in QBCore that prevented claiming rewards from Crime Traders."]
     },
     "devhub_airDrops": {
         "version": "1.0.0",
