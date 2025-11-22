@@ -161,13 +161,8 @@
         ]
     },
     "devhub_racing": {
-        "version": "1.0.2",
-        "changelog": [
-            "Resolved issue where user session data was not properly cleared upon leaving the server, causing relog problems.",
-            "Fixed missing notification when updating user profile settings.",
-            "Two missing translation strings from the navbar have been added to the translation files.",
-            "Additional debug options introduced for better diagnostics."
-        ]
+        "version": "1.0.3",
+        "changelog": ["Fixed SQL error occurring when a user was leaving the server."]
     },
     "devhub_radio": {
         "version": "1.0.1",
