@@ -161,16 +161,12 @@
         ]
     },
     "devhub_racing": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "changelog": [
-            "SQL conversion system implemented to migrate data from other racing scripts.",
-            "Currently supported scripts: AV Racing (/racingConvert:av) and Rahe Racing (/racingConvert:rahe).",
-            "Supported conversions: User Profiles (available now), Maps (planned for future update).",
-            "If you're using a different racing script, feel free to contact us for support.",
-            "New configuration option Config.Text3dFont added to allow font customization in 3D text displays.",
-            "New Config.JoinRace section added to control distance-based behavior for race joining UI:",
-            "showRaceUi: distance at which the join UI is shown.",
-            "showJoinButton: distance required to press the join button."
+            "Resolved issue where user session data was not properly cleared upon leaving the server, causing relog problems.",
+            "Fixed missing notification when updating user profile settings.",
+            "Two missing translation strings from the navbar have been added to the translation files.",
+            "Additional debug options introduced for better diagnostics."
         ]
     },
     "devhub_radio": {
