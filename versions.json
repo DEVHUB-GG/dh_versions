@@ -145,20 +145,30 @@
         "changelog": ["Fixed issue with claiming the correct amount of items from Crime Traders rewards.", "Fixed a bug in QBCore that prevented claiming rewards from Crime Traders."]
     },
     "devhub_airDrops": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
-    },
-    "devhub_houseRobbery": {
-        "version": "1.0.1",
-        "changelog": ["Resolved an issue with the target system for the QB framework."]
-    },
-    "devhub_truckRobbery": {
         "version": "1.0.1",
         "changelog": [
-            "Blip added to the truck for better tracking during missions.",
-            "Fixed an issue where the truck could sometimes disappear unexpectedly.",
-            "Reward system modified to provide more balanced and reliable item randomization."
-        ]
+      "Client-side alarm trigger functionality added.",
+      "Config.DevHubSkillTreeEnabled and Config.SkillTreeXP options added to configs/server.lua.",
+      "Old XP configuration removed.",
+      "Skill Tree XP now correctly added."
+    ]
+    },
+    "devhub_houseRobbery": {
+        "version": "1.0.2",
+        "changelog": [
+      "Client-side alarm trigger functionality added.",
+      "Config.DevHubSkillTreeEnabled and Config.SkillTreeXP options added to configs/server.lua.",
+      "Skill Tree XP now correctly added.",
+      "Fixed issue with props disappearing and reappearing when picked up."
+    ]
+    },
+    "devhub_truckRobbery": {
+        "version": "1.0.2",
+        "changelog": [
+      "Client-side alarm trigger functionality added.",
+      "Config.DevHubSkillTreeEnabled and Config.SkillTreeXP options added to configs/server.lua.",
+      "Skill Tree XP now correctly added."
+    ]
     },
     "devhub_racing": {
         "version": "1.0.3",
