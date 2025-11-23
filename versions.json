@@ -4,11 +4,11 @@
     "dh_lib": "2.0.0",
     "devhub_lib": "2.0.0",
     "devhub_lib_new": {
-        "version": "2.2.2",
+        "version": "2.2.3",
         "changelog": [
-            "Updated all target system modules to support passing multiple options to target zones, enabling more flexible interaction possibilities.",
-            "Refactored AddCoordsToTarget functions in ox_target, qb_target, standalone, and vrp modules to handle arrays of interaction options."
-        ]
+    "QB framework functions updated to ensure 'source' is always a number.",
+    "Introduced client and server functions to retrieve online police count."
+  ]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -145,30 +145,23 @@
         "changelog": ["Fixed issue with claiming the correct amount of items from Crime Traders rewards.", "Fixed a bug in QBCore that prevented claiming rewards from Crime Traders."]
     },
     "devhub_airDrops": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "changelog": [
-      "Client-side alarm trigger functionality added.",
-      "Config.DevHubSkillTreeEnabled and Config.SkillTreeXP options added to configs/server.lua.",
-      "Old XP configuration removed.",
-      "Skill Tree XP now correctly added."
-    ]
+    "Added police count check before starting an airdrop mission.",
+    "Added missing translations."
+  ]
     },
     "devhub_houseRobbery": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "changelog": [
-      "Client-side alarm trigger functionality added.",
-      "Config.DevHubSkillTreeEnabled and Config.SkillTreeXP options added to configs/server.lua.",
-      "Skill Tree XP now correctly added.",
-      "Fixed issue with props disappearing and reappearing when picked up."
-    ]
+    "Added police count check before starting a robbery mission."
+  ]
     },
     "devhub_truckRobbery": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "changelog": [
-      "Client-side alarm trigger functionality added.",
-      "Config.DevHubSkillTreeEnabled and Config.SkillTreeXP options added to configs/server.lua.",
-      "Skill Tree XP now correctly added."
-    ]
+    "Added police count check before starting a robbery mission."
+  ]
     },
     "devhub_racing": {
         "version": "1.0.3",
