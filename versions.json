@@ -168,7 +168,14 @@
         "changelog": ["Fixed SQL error occurring when a user was leaving the server."]
     },
     "devhub_radio": {
-        "version": "1.0.1",
-        "changelog": ["URGENT FIX: Critical issue resolved affecting radio functionality.", "Unnecessary debug print statements have been removed to clean up console output."]
+        "version": "1.1.0",
+        "changelog": [
+    "New file server.lua added in configs with GetCharacterUniqueId(source) function: allows each character to have separate radio names and settings.",
+    "StartRadioTalk() function added to configs/client.lua – triggers when player starts talking on radio.",
+    "StopRadioTalk() function added to configs/client.lua – triggers when player stops talking on radio.",
+    "CanPlayerTalkOnRadio() function added to configs/client.lua – checks if player is allowed to talk on the radio.",
+    "CanConnectToRadio() function added to configs/client.lua – checks if player can connect to the radio channel.",
+    "ForceDisconnect() client-side function introduced – forcibly disconnects player from radio when triggered."
+  ]
     }
 }
