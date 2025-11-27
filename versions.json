@@ -5,10 +5,7 @@
     "devhub_lib": "2.0.0",
     "devhub_lib_new": {
         "version": "2.2.3",
-        "changelog": [
-    "QB framework functions updated to ensure 'source' is always a number.",
-    "Introduced client and server functions to retrieve online police count."
-  ]
+        "changelog": ["QB framework functions updated to ensure 'source' is always a number.", "Introduced client and server functions to retrieve online police count."]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -82,12 +79,8 @@
         ]
     },
     "devhub_skillSelection": {
-        "version": "1.1.1",
-        "changelog": [
-            "New config option Config.UseIdentifier added to allow saving skills using player identifiers, enabling unique skill sets per character.",
-            "Blocked the ability to delete or move a skill that is currently on cooldown.",
-            "Improved loading performance of the built-in hotbar system."
-        ]
+        "version": "1.1.2",
+        "changelog": ["Fixed a bug introduced in the last update where if Config.UseIdentifierwas set to true, identifier was accessed before the player was fully loaded, causing an error."]
     },
     "devhub_drywoodCutter": {
         "version": "1.1.3",
@@ -146,22 +139,15 @@
     },
     "devhub_airDrops": {
         "version": "1.0.2",
-        "changelog": [
-    "Added police count check before starting an airdrop mission.",
-    "Added missing translations."
-  ]
+        "changelog": ["Added police count check before starting an airdrop mission.", "Added missing translations."]
     },
     "devhub_houseRobbery": {
         "version": "1.0.3",
-        "changelog": [
-    "Added police count check before starting a robbery mission."
-  ]
+        "changelog": ["Added police count check before starting a robbery mission."]
     },
     "devhub_truckRobbery": {
         "version": "1.0.3",
-        "changelog": [
-    "Added police count check before starting a robbery mission."
-  ]
+        "changelog": ["Added police count check before starting a robbery mission."]
     },
     "devhub_racing": {
         "version": "1.0.3",
@@ -170,12 +156,12 @@
     "devhub_radio": {
         "version": "1.1.0",
         "changelog": [
-    "New file server.lua added in configs with GetCharacterUniqueId(source) function: allows each character to have separate radio names and settings.",
-    "StartRadioTalk() function added to configs/client.lua – triggers when player starts talking on radio.",
-    "StopRadioTalk() function added to configs/client.lua – triggers when player stops talking on radio.",
-    "CanPlayerTalkOnRadio() function added to configs/client.lua – checks if player is allowed to talk on the radio.",
-    "CanConnectToRadio() function added to configs/client.lua – checks if player can connect to the radio channel.",
-    "ForceDisconnect() client-side function introduced – forcibly disconnects player from radio when triggered."
-  ]
+            "New file server.lua added in configs with GetCharacterUniqueId(source) function: allows each character to have separate radio names and settings.",
+            "StartRadioTalk() function added to configs/client.lua – triggers when player starts talking on radio.",
+            "StopRadioTalk() function added to configs/client.lua – triggers when player stops talking on radio.",
+            "CanPlayerTalkOnRadio() function added to configs/client.lua – checks if player is allowed to talk on the radio.",
+            "CanConnectToRadio() function added to configs/client.lua – checks if player can connect to the radio channel.",
+            "ForceDisconnect() client-side function introduced – forcibly disconnects player from radio when triggered."
+        ]
     }
 }
