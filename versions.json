@@ -130,7 +130,7 @@
         ]
     },
     "devhub_laptop": {
-        "version": "1.0.4",
+        "version": "1.0.3",
         "changelog": ["Fixed an issue where the laptop would appear too high during the opening animation on ultrawide screens."]
     },
     "devhub_airDrops": {
