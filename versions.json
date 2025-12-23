@@ -134,8 +134,15 @@
         ]
     },
     "devhub_laptop": {
-        "version": "1.0.3",
-        "changelog": ["Fixed an issue where the laptop would appear too high during the opening animation on ultrawide screens."]
+        "version": "1.0.4",
+        "changelog": [
+            "Fixed an issue with loading external config which caused:",
+            " - Racing app not opening in full screen mode.",
+            " - App store not displaying data correctly.",
+            " - Crime activities not loading properly.",
+            "The problem was caused by misconfiguration of Shared.InventorySystem in devhub_lib, being set to an unsupported value without proper setup for the active inventory system.",
+            "If you see \"Misconfigured Shared.InventorySystem devhub_lib\" instead of an item label, it means you need to open devhub_lib and configure the inventory system properly."
+        ]
     },
     "devhub_airDrops": {
         "version": "1.0.2",
