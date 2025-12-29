@@ -83,11 +83,8 @@
         "changelog": ["Fixed a bug introduced in the last update where if Config.UseIdentifierwas set to true, identifier was accessed before the player was fully loaded, causing an error."]
     },
     "devhub_drywoodCutter": {
-        "version": "1.1.3",
-        "changelog": [
-            "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
-            "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
-        ]
+        "version": "1.1.4",
+        "changelog": ["Improved overall script security to prevent unauthorized access and potential exploits."]
     },
     "devhub_3dCraftingTable": {
         "version": "2.1.0",
