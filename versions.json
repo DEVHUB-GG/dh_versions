@@ -128,11 +128,8 @@
         "changelog": ["Initial release"]
     },
     "devhub_minigames": {
-        "version": "1.0.3",
-        "changelog": [
-            "Adjusted two minigames to prevent repeated key pressing, which made them too easy to complete.",
-            "Extended keyboard support for better compatibility with Asian keyboard layouts."
-        ]
+        "version": "1.0.4",
+        "changelog": ["Resolved an issue in Minigame 7 that allowed players to complete the minigame earlier than intended."]
     },
     "devhub_laptop": {
         "version": "1.0.4",
