@@ -143,8 +143,9 @@
         ]
     },
     "devhub_airDrops": {
-        "version": "1.0.2",
-        "changelog": ["Added police count check before starting an airdrop mission.", "Added missing translations."]
+        "version": "1.0.3",
+        "changelog": ["Resolved an issue where the airdrop occasionally spawned underground due to incorrect position calculations."
+]
     },
     "devhub_houseRobbery": {
         "version": "1.0.3",
