@@ -132,14 +132,11 @@
         "changelog": ["Resolved an issue in Minigame 7 that allowed players to complete the minigame earlier than intended."]
     },
     "devhub_laptop": {
-        "version": "1.0.4",
+        "version": "1.0.5",
         "changelog": [
-            "Fixed an issue with loading external config which caused:",
-            " - Racing app not opening in full screen mode.",
-            " - App store not displaying data correctly.",
-            " - Crime activities not loading properly.",
-            "The problem was caused by misconfiguration of Shared.InventorySystem in devhub_lib, being set to an unsupported value without proper setup for the active inventory system.",
-            "If you see \"Misconfigured Shared.InventorySystem devhub_lib\" instead of an item label, it means you need to open devhub_lib and configure the inventory system properly."
+            "Resolved an issue in the crime trader's shop where attempting to purchase a non-level 1 item from the 'All' tab would result in an 'Item not found' message.",
+            "Fixed a bug where the crime trader's app status would reset after completing a job, triggering a false premium content notification.",
+            "Unnecessary console logs have been removed from the UI for cleaner debugging."
         ]
     },
     "devhub_airDrops": {
