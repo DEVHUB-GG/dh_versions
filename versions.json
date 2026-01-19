@@ -123,8 +123,14 @@
         "changelog": ["Initial release"]
     },
     "devhub_guidebook": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+    "Documentation comments added in the config file explaining all available methods to open the guidebook.",
+    "Export function added to open the guidebook from other scripts: exports[\"devhub_guidebook\"].openGuideBook().",
+    "New client event to open the guidebook:\n- From client-side: TriggerEvent(\"dh_guidebook:client:openGuideBook\")\n- From server-side: TriggerClientEvent(\"dh_guidebook:client:openGuideBook\", source)",
+    "Command and keybind registration now only occurs when Config.OpenGuideBook.command is not nil.",
+    "Config.OpenGuideBook.command can now be set to nil to fully disable command registration."
+  ]
     },
     "devhub_pauseMenu": {
         "version": "1.0.0",
