@@ -141,12 +141,10 @@
         "changelog": ["Resolved an issue in Minigame 7 that allowed players to complete the minigame earlier than intended."]
     },
     "devhub_laptop": {
-        "version": "1.0.6",
+        "version": "1.0.7",
         "changelog": [
-            "Resolved an issue in the crime trader's shop where attempting to purchase a non-level 1 item from the 'All' tab would result in an 'Item not found' message.",
-            "Fixed a bug where the crime trader's app status would reset after completing a job, triggering a false premium content notification.",
-            "Unnecessary console logs have been removed from the UI for cleaner debugging.",
-            "Improved overall script security to ensure more robust and reliable protection against exploits."
+            "Enhanced the saving mechanism for laptop data and crime actions to ensure better reliability and performance.",
+            "Resolved an issue where players couldn't claim rewards from crime actions if they completed a mission, relogged, and completed another mission again."
         ]
     },
     "devhub_airDrops": {
