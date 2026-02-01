@@ -152,7 +152,7 @@
         "changelog": ["Resolved an issue where the airdrop occasionally spawned underground due to incorrect position calculations."]
     },
     "devhub_houseRobbery": {
-        "version": "1.0.4",
+        "version": "1.0.5",
         "changelog": [
     "Support for a custom lockpick minigame:",
     "Config.LockpickMinigame.useCustom allows toggling the custom minigame.",
