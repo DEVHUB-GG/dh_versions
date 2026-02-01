@@ -154,16 +154,11 @@
     "devhub_houseRobbery": {
         "version": "1.0.4",
         "changelog": [
-            "Lockpick configuration added in shared.lua:",
-            "Shared.Lockpick.enabled to enable/disable lockpick removal.",
-            "Shared.Lockpick.itemName to set a custom item name (default: 'lockpick').",
-            "Shared.Lockpick.removeOnFail to remove the item on failed attempts.",
-            "Shared.Lockpick.removeOnSuccess to remove the item on successful attempts.",
-            "Translation added in translation.lua: 'no_lockpick' message when the player has no lockpick.",
-            "Payout configuration added in server.lua:",
-            "Config.PayoutMethod to switch between 'default' and 'custom' payout.",
-            "Config.CustomPayout function to define custom payout logic (supports external events/scripts)."
-        ]
+    "Support for a custom lockpick minigame:",
+    "Config.LockpickMinigame.useCustom allows toggling the custom minigame.",
+    "Config.CustomLockpickMinigame(tier) enables defining a custom function based on tier.",
+    "New propsPercent = { min, max } setting added per house config to control spawn rate of props."
+  ]
     },
     "devhub_truckRobbery": {
         "version": "1.0.3",
