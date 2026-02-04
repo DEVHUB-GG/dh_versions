@@ -133,8 +133,12 @@
         ]
     },
     "devhub_pauseMenu": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+            "New config option Config.OpenViaKeymap added to control how the pause menu opens.",
+            "Allows enabling/disabling opening via keymap (ESC / P).",
+            "When disabled, uses IsDisabledControlJustPressed, which runs at 0.01ms and avoids UI conflicts on servers with many interfaces."
+        ]
     },
     "devhub_minigames": {
         "version": "1.0.4",
@@ -154,11 +158,11 @@
     "devhub_houseRobbery": {
         "version": "1.0.5",
         "changelog": [
-    "Support for a custom lockpick minigame:",
-    "Config.LockpickMinigame.useCustom allows toggling the custom minigame.",
-    "Config.CustomLockpickMinigame(tier) enables defining a custom function based on tier.",
-    "New propsPercent = { min, max } setting added per house config to control spawn rate of props."
-  ]
+            "Support for a custom lockpick minigame:",
+            "Config.LockpickMinigame.useCustom allows toggling the custom minigame.",
+            "Config.CustomLockpickMinigame(tier) enables defining a custom function based on tier.",
+            "New propsPercent = { min, max } setting added per house config to control spawn rate of props."
+        ]
     },
     "devhub_truckRobbery": {
         "version": "1.0.3",
