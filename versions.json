@@ -4,8 +4,27 @@
     "dh_lib": "2.0.0",
     "devhub_lib": "2.0.0",
     "devhub_lib_new": {
-        "version": "2.2.3",
-        "changelog": ["QB framework functions updated to ensure 'source' is always a number.", "Introduced client and server functions to retrieve online police count."]
+        "version": "3.0.0",
+
+        "changelog": [
+            "Improved error handling during compatibility testing.",
+            "Added testing for new internal features.",
+            "Enhanced tests for target system, sound handling, vehicle keys, and fuel integration.",
+            "Added problem-solving tips at the end of failed test results.",
+            "Added 6 pre-configured inventory setups.",
+            "Moved inventory-related functions from the frameworks folder to a new inventories folder.",
+            "Introduced new functions to support inventory features.",
+            "Added full support for meta items within inventories.",
+            "Built-in Gizmo system integrated.",
+            "Built-in PolyZone system integrated.",
+            "NPC Dialog system introduced.",
+            "Required Item system added.",
+            "Expanded in-game development commands for easier debugging.",
+            "New SQL functions added to s.sql.lua.",
+            "Added new target options in c.target.lua.",
+            "Shared.Framework now supports name aliases.",
+            "Improved s.logs.lua for better error reporting and support for logs without source."
+        ]
     },
     "dh_skillTree": {
         "version": "2.0.0",
@@ -186,5 +205,5 @@
     "devhub_crafting": {
         "version": "1.0.0",
         "changelog": ["Initial release"]
-    },
+    }
 }
