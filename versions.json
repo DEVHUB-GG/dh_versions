@@ -182,5 +182,9 @@
             "CanConnectToRadio() function added to configs/client.lua – checks if player can connect to the radio channel.",
             "ForceDisconnect() client-side function introduced – forcibly disconnects player from radio when triggered."
         ]
-    }
+    },
+    "devhub_crafting": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
 }
