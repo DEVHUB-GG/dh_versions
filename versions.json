@@ -1,8 +1,8 @@
 {
     "dh_cartune": "1.0.0",
     "dh_cardance": "1.0.1",
-    "dh_lib": "2.0.0",
-    "devhub_lib": "2.0.0",
+    "dh_lib": "3.0.0",
+    "devhub_lib": "3.0.0",
     "devhub_lib_new": {
         "version": "3.0.0",
 
