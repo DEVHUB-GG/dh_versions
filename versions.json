@@ -197,8 +197,15 @@
         "changelog": ["Added police count check before starting a robbery mission."]
     },
     "devhub_racing": {
-        "version": "1.0.6",
-        "changelog": ["Fixed an issue where the fade-in effect was triggered even if Config.OnRaceEndTeleportToStart was set to false."]
+        "version": "1.0.7",
+
+        "changelog": [
+            "New export added: exports['devhub_racing']:createRace for creating races programmatically.",
+            "Config.RaceStartDelay added to define a delay (in seconds) before the race starts.",
+            "Config.MaxPreRacePlayerShowcase added to set the maximum number of players to showcase before the race, sorted by MMR.",
+            "Adjusted Config.IsAdminPermissionRequired to reflect typical use cases: createMap = true, createRace = false.",
+            "Additional debugging information implemented for better development insight."
+        ]
     },
     "devhub_radio": {
         "version": "1.1.0",
