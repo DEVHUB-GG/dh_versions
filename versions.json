@@ -1,10 +1,10 @@
 {
     "dh_cartune": "1.0.0",
     "dh_cardance": "1.0.1",
-    "dh_lib": "3.0.0",
-    "devhub_lib": "3.0.0",
+    "dh_lib": "3.0.1",
+    "devhub_lib": "3.0.1",
     "devhub_lib_new": {
-        "version": "3.0.0",
+        "version": "3.0.1",
 
         "changelog": [
             "Improved error handling during compatibility testing.",
@@ -23,7 +23,16 @@
             "New SQL functions added to s.sql.lua.",
             "Added new target options in c.target.lua.",
             "Shared.Framework now supports name aliases.",
-            "Improved s.logs.lua for better error reporting and support for logs without source."
+            "Improved s.logs.lua for better error reporting and support for logs without source.",
+            "3.0.1",
+            "New systemsLoaded functionality to ensure coreLoaded is only set after all systems have successfully started.",
+            "Automatic detection of player load state to trigger playerLoaded if the framework failed to do so.",
+            "Added support for tgiann-inventory (BETA).",
+            "Added custom inventory system with fallback logic if no supported inventory is detected.",
+            "Added compatibility with rcore_fuel.",
+            "Resolved registration issue for items in ox_inventory.",
+            "Fixed global target player detection in compatibility test.",
+            "Added player drop from the server at the end of compatibility tests to allow proper completion and ensure playerUnloaded is triggered."
         ]
     },
     "dh_skillTree": {
