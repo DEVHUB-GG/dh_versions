@@ -224,7 +224,22 @@
         ]
     },
     "devhub_crafting": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.1.0",
+        "changelog": [
+    "Ability to click on a required blueprint (if not unlocked) to preview its requirements directly from the crafting UI.",
+    "New server event added for granting blueprints to players.",
+    "Documentation updated with blueprint event usage and new configuration options.",
+    "Missing translation texts added.",
+    "Option to disable header tabs (Blueprints, Statistics). Tabs are now managed from a single configuration table, including Community Projects.",
+    "Custom requirement function support added for crafting items.",
+    "DevHub Skill Tree requirement support added for crafting items.",
+    "Crafting table is now locked when a required Community Project is not completed.",
+    "Community Projects are automatically removed after completion.",
+    "Added \"Show Completed\" button in the admin menu for Community Projects.",
+    "Admin menu option added to choose which categories are available per crafting table (Crafting, Attachments, Community Projects, Blueprints, Statistics).",
+    "All attachments unlocked by default.",
+    "Server-side hooks added: OnCraftCompleted, CanClaimItem, OnItemClaimed.",
+    "Configuration for categories, crafts, tables, Community Projects, and Blueprints moved to a centralized crafting configuration file for better structure and management."
+  ]
     }
 }
