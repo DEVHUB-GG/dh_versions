@@ -197,15 +197,26 @@
         ]
     },
     "devhub_radio": {
-        "version": "1.1.0",
+        "version": "1.2.0",
         "changelog": [
-            "New file server.lua added in configs with GetCharacterUniqueId(source) function: allows each character to have separate radio names and settings.",
-            "StartRadioTalk() function added to configs/client.lua – triggers when player starts talking on radio.",
-            "StopRadioTalk() function added to configs/client.lua – triggers when player stops talking on radio.",
-            "CanPlayerTalkOnRadio() function added to configs/client.lua – checks if player is allowed to talk on the radio.",
-            "CanConnectToRadio() function added to configs/client.lua – checks if player can connect to the radio channel.",
-            "ForceDisconnect() client-side function introduced – forcibly disconnects player from radio when triggered."
-        ]
+    "Radio holding animation added while the UI is open.",
+    "Option added to speed up the radio talking animation.",
+    "Keybind added to switch radio channels up and down.",
+    "New setting added to configure channel step value (e.g., 1, 0.1, 0.01).",
+    "Config option added to define default channel step value for new players.",
+    "Warning displayed at the top of the screen if getRadioData is not added to the pma-voice script.",
+    "Implemented pcall to execute getRadioData and validate its return value; if an error occurs, users are redirected to https://docs.devhub.gg/radio/configuration.",
+    "Option added in settings to allow walking while holding the radio.",
+    "Ability added to change radio volume directly from the interface.",
+    "Added support for configuring a reserved radio channel range using range instead of channels in config.",
+    "Loading animation added for the player list while fetching data from the HUD (optimization improvement).",
+    "Saved radio name is now displayed in the HUD.",
+    "END keybind added to instantly disconnect from the radio.",
+    "Volume bar redesigned into a cleaner interface volume control.",
+    "Removed one unnecessary print from the UI.",
+    "Removed F8 warnings related to target.",
+    "Fixed issue where nickname changes were saved even if the player did not press Save."
+  ]
     },
     "devhub_crafting": {
         "version": "1.1.1",
