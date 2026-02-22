@@ -4,19 +4,12 @@
     "dh_lib": "3.0.1",
     "devhub_lib": "3.0.1",
     "devhub_lib_new": {
-        "version": "3.0.2",
+        "version": "3.0.3",
 
         "changelog": [
-    "Ordered auto-detection added for supported target and inventory systems.",
-    "Updated inventory adapters to normalize item image URI/path formatting across systems.",
-    "qs-inventory integration switched to use the weapons:client:SetCurrentWeapon event.",
-    "qs-inventory usable items migrated to the CreateUsableItem API.",
-    "tgiann-inventory exports updated to use ItemsRaw.",
-    "ak47_inventory enhanced to handle weapon metadata with cooldown protection.",
-    "Server callback added in ak47_inventory to fetch weapon metadata.",
-    "Items export cached in ak47_inventory for improved performance and consistency.",
-    "Framework-specific usable item registration added for ESX, QBCore, and QBOX.",
-    "General cleanup and refinement of item data retrieval logic across inventory modules."
+    "QB framework client module now retrieves QBCore using exports['qb-core']:GetCoreObject() for improved compatibility with latest QB versions.",
+    "Updated qb-inventory server calls to use proper export names and signatures: CanAddItem and GetItemCount.",
+    "Additional debug tests added to improve troubleshooting and speed up support diagnostics."
   ]
     },
     "dh_skillTree": {
