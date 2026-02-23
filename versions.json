@@ -143,11 +143,10 @@
         ]
     },
     "devhub_pauseMenu": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "changelog": [
-            "New config option Config.OpenViaKeymap added to control how the pause menu opens.",
-            "Allows enabling/disabling opening via keymap (ESC / P).",
-            "When disabled, uses IsDisabledControlJustPressed, which runs at 0.01ms and avoids UI conflicts on servers with many interfaces."
+            "Added 3 base quests that work fully plug & play.",
+            "Attempted fix for the legend not displaying correctly in random cases after opening the map."
         ]
     },
     "devhub_minigames": {
