@@ -77,11 +77,14 @@
         ]
     },
     "devhub_herbalAlchemist": {
-        "version": "1.1.1",
+        "version": "1.1.2",
         "changelog": [
-            "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
-            "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
-        ]
+    "Significant server performance improvements, reduced load during herb spawning and harvesting.",
+    "Optimized network synchronization, lower data transfer usage between server and clients.",
+    "Improved client-side herb rendering, reduced FPS impact in areas with a high number of plants.",
+    "Fixed an issue that could cause player data duplication in the database.",
+    "Fixed a potential client freeze when removing objects from the map."
+  ]
     },
     "devhub_skillSelection": {
         "version": "1.1.3",
@@ -211,10 +214,13 @@
   ]
     },
     "devhub_crafting": {
-        "version": "1.1.1",
+        "version": "1.1.2",
         "changelog": [
-    "Fixed an issue where an error could occasionally occur if devhub_skillTree was not installed.",
-    "Fixed weapon attachment application when using weapon draw animations."
+    "Added GetCraftTimeReduction config function to define crafting time reduction per player, station, or recipe, including a visual indicator in the UI.",
+    "Added hideIfSkillLocked flag to recipes to completely hide them when skill tree requirements are not met.",
+    "Added \"Hide if skill locked\" toggle in the admin panel craft editor (visible only when the skill tree is enabled).",
+    "Fixed duplicate primary key crash when a player reconnects rapidly.",
+    "Resource now automatically creates required database tables on startup."
   ]
     }
 }
