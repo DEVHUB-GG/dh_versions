@@ -192,26 +192,8 @@
         ]
     },
     "devhub_radio": {
-        "version": "1.2.0",
-        "changelog": [
-    "Radio holding animation added while the UI is open.",
-    "Option added to speed up the radio talking animation.",
-    "Keybind added to switch radio channels up and down.",
-    "New setting added to configure channel step value (e.g., 1, 0.1, 0.01).",
-    "Config option added to define default channel step value for new players.",
-    "Warning displayed at the top of the screen if getRadioData is not added to the pma-voice script.",
-    "Implemented pcall to execute getRadioData and validate its return value; if an error occurs, users are redirected to https://docs.devhub.gg/radio/configuration.",
-    "Option added in settings to allow walking while holding the radio.",
-    "Ability added to change radio volume directly from the interface.",
-    "Added support for configuring a reserved radio channel range using range instead of channels in config.",
-    "Loading animation added for the player list while fetching data from the HUD (optimization improvement).",
-    "Saved radio name is now displayed in the HUD.",
-    "END keybind added to instantly disconnect from the radio.",
-    "Volume bar redesigned into a cleaner interface volume control.",
-    "Removed one unnecessary print from the UI.",
-    "Removed F8 warnings related to target.",
-    "Fixed issue where nickname changes were saved even if the player did not press Save."
-  ]
+        "version": "1.2.1",
+        "changelog": [ "Slight radio performance optimization for smoother usage.", "Config.HideMemberList added, allowing the radio member list to be hidden (requested by a customer)." ]
     },
     "devhub_crafting": {
         "version": "1.1.2",
