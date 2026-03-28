@@ -197,13 +197,22 @@
         "changelog": ["Slight radio performance optimization for smoother usage.", "Config.HideMemberList added, allowing the radio member list to be hidden (requested by a customer)."]
     },
     "devhub_crafting": {
-        "version": "1.1.2",
+        "version": "1.2.0",
         "changelog": [
-            "Added GetCraftTimeReduction config function to define crafting time reduction per player, station, or recipe, including a visual indicator in the UI.",
-            "Added hideIfSkillLocked flag to recipes to completely hide them when skill tree requirements are not met.",
-            "Added \"Hide if skill locked\" toggle in the admin panel craft editor (visible only when the skill tree is enabled).",
-            "Fixed duplicate primary key crash when a player reconnects rapidly.",
-            "Resource now automatically creates required database tables on startup."
-        ]
+    "XP reward per craft is now visible in the admin panel.",
+    "Required Skill Tree level added for crafting specific items.",
+    "Ability to craft multiple items at once.",
+    "New onCraftStart callback added to each item for easier custom logic handling.",
+    "Added 3 new crafting types: Coords Only (crafting at fixed coordinates without props), Prop-Based (target for all props of a selected model), and Item-Based (placeable crafting stations with limits and pickup functionality).",
+    "Automatic adjustment of spawned weapon/prop rotation based on crafting table orientation.",
+    "New admin tab 'Placed Stations' to view all placed crafting stations with owner, coordinates, teleport, and removal options.",
+    "Crafting logs added for better tracking and debugging.",
+    "Database operations optimized: player data is now created only after opening crafting for the first time.",
+    "Crafting loading optimized: cached data is sent only before the first crafting open, and players who never open crafting will not cache any data.",
+    "Reduced distance between spawned prop/weapon and player camera.",
+    "Skill Tree requirement display now only shows when Shared.SkillTreeEnabled = true.",
+    "Improved visibility of craft ID selection text (now white).",
+    "Removed Y-axis lock when rotating weapons in attachments."
+  ]
     }
 }
