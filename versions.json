@@ -182,15 +182,9 @@
         "changelog": ["Added police count check before starting a robbery mission."]
     },
     "devhub_racing": {
-        "version": "1.0.7",
+        "version": "1.0.8",
 
-        "changelog": [
-            "New export added: exports['devhub_racing']:createRace for creating races programmatically.",
-            "Config.RaceStartDelay added to define a delay (in seconds) before the race starts.",
-            "Config.MaxPreRacePlayerShowcase added to set the maximum number of players to showcase before the race, sorted by MMR.",
-            "Adjusted Config.IsAdminPermissionRequired to reflect typical use cases: createMap = true, createRace = false.",
-            "Additional debugging information implemented for better development insight."
-        ]
+        "changelog": ["Fixed an issue where the 'race already started' message was incorrectly displayed, preventing players from joining the race."]
     },
     "devhub_radio": {
         "version": "1.2.1",
@@ -199,20 +193,20 @@
     "devhub_crafting": {
         "version": "1.2.0",
         "changelog": [
-    "XP reward per craft is now visible in the admin panel.",
-    "Required Skill Tree level added for crafting specific items.",
-    "Ability to craft multiple items at once.",
-    "New onCraftStart callback added to each item for easier custom logic handling.",
-    "Added 3 new crafting types: Coords Only (crafting at fixed coordinates without props), Prop-Based (target for all props of a selected model), and Item-Based (placeable crafting stations with limits and pickup functionality).",
-    "Automatic adjustment of spawned weapon/prop rotation based on crafting table orientation.",
-    "New admin tab 'Placed Stations' to view all placed crafting stations with owner, coordinates, teleport, and removal options.",
-    "Crafting logs added for better tracking and debugging.",
-    "Database operations optimized: player data is now created only after opening crafting for the first time.",
-    "Crafting loading optimized: cached data is sent only before the first crafting open, and players who never open crafting will not cache any data.",
-    "Reduced distance between spawned prop/weapon and player camera.",
-    "Skill Tree requirement display now only shows when Shared.SkillTreeEnabled = true.",
-    "Improved visibility of craft ID selection text (now white).",
-    "Removed Y-axis lock when rotating weapons in attachments."
-  ]
+            "XP reward per craft is now visible in the admin panel.",
+            "Required Skill Tree level added for crafting specific items.",
+            "Ability to craft multiple items at once.",
+            "New onCraftStart callback added to each item for easier custom logic handling.",
+            "Added 3 new crafting types: Coords Only (crafting at fixed coordinates without props), Prop-Based (target for all props of a selected model), and Item-Based (placeable crafting stations with limits and pickup functionality).",
+            "Automatic adjustment of spawned weapon/prop rotation based on crafting table orientation.",
+            "New admin tab 'Placed Stations' to view all placed crafting stations with owner, coordinates, teleport, and removal options.",
+            "Crafting logs added for better tracking and debugging.",
+            "Database operations optimized: player data is now created only after opening crafting for the first time.",
+            "Crafting loading optimized: cached data is sent only before the first crafting open, and players who never open crafting will not cache any data.",
+            "Reduced distance between spawned prop/weapon and player camera.",
+            "Skill Tree requirement display now only shows when Shared.SkillTreeEnabled = true.",
+            "Improved visibility of craft ID selection text (now white).",
+            "Removed Y-axis lock when rotating weapons in attachments."
+        ]
     }
 }
