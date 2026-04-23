@@ -7,9 +7,11 @@
         "version": "3.0.4",
 
         "changelog": [
-            "QB framework client module now retrieves QBCore using exports['qb-core']:GetCoreObject() for improved compatibility with latest QB versions.",
-            "Updated qb-inventory server calls to use proper export names and signatures: CanAddItem and GetItemCount.",
-            "Additional debug tests added to improve troubleshooting and speed up support diagnostics."
+            "Fixed PolyZone bounds issue by adding a safety check in `_pointInPoly`.",
+            "Prevented invalid grid indexing by falling back to winding-number calculation when grid cell is out of range.",
+            "Fixed Codem Inventory item registration and `GetItemData` handling.",
+            "Improved NPC dialog item purchasing logic to prevent issues during transactions.",
+            "Updated inventory server integrations for better compatibility and stability across supported inventory systems."
         ]
     },
     "dh_skillTree": {
@@ -190,10 +192,10 @@
     "devhub_crafting": {
         "version": "1.2.1",
         "changelog": [
-    "Option to select which category receives XP when crafting.",
-    "Model loading validation added with notification if the model fails to load.",
-    "Actions are now blocked while the model is loading to prevent issues.",
-    "OnVanishPlayers and OnUnvanishPlayers added to the openFunction on the client side."
-  ]
+            "Option to select which category receives XP when crafting.",
+            "Model loading validation added with notification if the model fails to load.",
+            "Actions are now blocked while the model is loading to prevent issues.",
+            "OnVanishPlayers and OnUnvanishPlayers added to the openFunction on the client side."
+        ]
     }
 }
