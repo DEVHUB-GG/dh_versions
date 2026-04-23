@@ -1,10 +1,10 @@
 {
     "dh_cartune": "1.0.0",
     "dh_cardance": "1.0.1",
-    "dh_lib": "3.0.1",
-    "devhub_lib": "3.0.1",
+    "dh_lib": "3.0.4",
+    "devhub_lib": "3.0.4",
     "devhub_lib_new": {
-        "version": "3.0.3",
+        "version": "3.0.4",
 
         "changelog": [
             "QB framework client module now retrieves QBCore using exports['qb-core']:GetCoreObject() for improved compatibility with latest QB versions.",
