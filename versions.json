@@ -149,8 +149,9 @@
         ]
     },
     "devhub_pauseMenu": {
-        "version": "1.0.2",
-        "changelog": ["Added 3 base quests that work fully plug & play.", "Attempted fix for the legend not displaying correctly in random cases after opening the map."]
+        "version": "1.0.3",
+
+        "changelog": ["Improved task completion system for smoother and more reliable finishing of tasks.", "Enhanced UI behavior during task progress for better clarity and user experience."]
     },
     "devhub_minigames": {
         "version": "1.0.4",
