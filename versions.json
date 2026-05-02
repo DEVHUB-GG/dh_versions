@@ -182,9 +182,9 @@
         "changelog": ["Added police count check before starting a robbery mission."]
     },
     "devhub_racing": {
-        "version": "1.0.8",
+        "version": "1.0.9",
 
-        "changelog": ["Fixed an issue where the 'race already started' message was incorrectly displayed, preventing players from joining the race."]
+        "changelog": ["Fixed an issue where the racing app would sometimes not open in full screen mode."]
     },
     "devhub_radio": {
         "version": "1.2.1",
