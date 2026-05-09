@@ -135,13 +135,12 @@
         "changelog": ["Initial release"]
     },
     "devhub_crimeScenes": {
-        "version": "1.1.0",
+        "version": "1.1.1",
         "changelog": [
-      "New optional requirements system added for starting missions.",
-      "Mission requirements are now displayed inside the laptop UI.",
-      "Mission requirements are now displayed inside the NPC dialog interface.",
-      "Version check on script start added."
-    ]
+    "Fixed an issue with the target system for QBCore.",
+    "Fixed an issue where the job would not start without showing any notification in certain cases.",
+    "Added missing translations."
+  ]
     },
     "devhub_guidebook": {
         "version": "1.0.1",
