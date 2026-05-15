@@ -1,17 +1,21 @@
 {
     "dh_cartune": "1.0.0",
     "dh_cardance": "1.0.1",
-    "dh_lib": "3.0.4",
-    "devhub_lib": "3.0.4",
+    "dh_lib": "3.0.5",
+    "devhub_lib": "3.0.5",
     "devhub_lib_new": {
-        "version": "3.0.4",
+        "version": "3.0.5",
 
         "changelog": [
-            "Fixed PolyZone bounds issue by adding a safety check in `_pointInPoly`.",
-            "Prevented invalid grid indexing by falling back to winding-number calculation when grid cell is out of range.",
-            "Fixed Codem Inventory item registration and `GetItemData` handling.",
-            "Improved NPC dialog item purchasing logic to prevent issues during transactions.",
-            "Updated inventory server integrations for better compatibility and stability across supported inventory systems."
+            "Runtime startup warnings added for client and server when systems are not loaded.",
+            "Ready prints added on client and server startup.",
+            "Server notification added when compatibility tests start.",
+            "Compatibility tests now fail early when xsound is not started.",
+            "Sound module now safely checks for xsound and returns early if it is missing.",
+            "core_inventory exports are now used to fetch item metadata.",
+            "Item labels now safely fall back when metadata is missing.",
+            "Fixed carried item state by setting IsCarryingItem when adding a carried item.",
+            "Fixed target system loading in standalone version."
         ]
     },
     "dh_skillTree": {
@@ -137,10 +141,10 @@
     "devhub_crimeScenes": {
         "version": "1.1.1",
         "changelog": [
-    "Fixed an issue with the target system for QBCore.",
-    "Fixed an issue where the job would not start without showing any notification in certain cases.",
-    "Added missing translations."
-  ]
+            "Fixed an issue with the target system for QBCore.",
+            "Fixed an issue where the job would not start without showing any notification in certain cases.",
+            "Added missing translations."
+        ]
     },
     "devhub_guidebook": {
         "version": "1.0.1",
@@ -163,37 +167,34 @@
     },
     "devhub_laptop": {
         "version": "1.0.8",
-        "changelog": [
-    "Required actions added for crime trader missions.",
-    "Improved the way external apps are added to minimize issues with them appearing as not owned."
-  ]
+        "changelog": ["Required actions added for crime trader missions.", "Improved the way external apps are added to minimize issues with them appearing as not owned."]
     },
     "devhub_airDrops": {
         "version": "1.1.3",
         "changelog": [
-      "New npcdialog system added for immersive interaction with the mission NPC.",
-      "New optional requirements system added for starting missions.",
-      "Mission requirements are now displayed inside the laptop UI.",
-      "Mission requirements are now displayed inside the NPC dialog interface."
-    ]
+            "New npcdialog system added for immersive interaction with the mission NPC.",
+            "New optional requirements system added for starting missions.",
+            "Mission requirements are now displayed inside the laptop UI.",
+            "Mission requirements are now displayed inside the NPC dialog interface."
+        ]
     },
     "devhub_houseRobbery": {
         "version": "1.1.5",
         "changelog": [
-      "New npcdialog system added for immersive interaction with the mission NPC.",
-      "New optional requirements system added for starting missions.",
-      "Mission requirements are now displayed inside the laptop UI.",
-      "Mission requirements are now displayed inside the NPC dialog interface."
-    ]
+            "New npcdialog system added for immersive interaction with the mission NPC.",
+            "New optional requirements system added for starting missions.",
+            "Mission requirements are now displayed inside the laptop UI.",
+            "Mission requirements are now displayed inside the NPC dialog interface."
+        ]
     },
     "devhub_truckRobbery": {
         "version": "1.1.3",
         "changelog": [
-      "New npcdialog system added for immersive interaction with the mission NPC.",
-      "New optional requirements system added for starting missions.",
-      "Mission requirements are now displayed inside the laptop UI.",
-      "Mission requirements are now displayed inside the NPC dialog interface."
-    ]
+            "New npcdialog system added for immersive interaction with the mission NPC.",
+            "New optional requirements system added for starting missions.",
+            "Mission requirements are now displayed inside the laptop UI.",
+            "Mission requirements are now displayed inside the NPC dialog interface."
+        ]
     },
     "devhub_racing": {
         "version": "1.0.9",
