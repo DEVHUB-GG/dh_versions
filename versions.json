@@ -139,12 +139,15 @@
         "changelog": ["Initial release"]
     },
     "devhub_crimeScenes": {
-        "version": "1.1.1",
+        "version": "1.1.2",
         "changelog": [
-            "Fixed an issue with the target system for QBCore.",
-            "Fixed an issue where the job would not start without showing any notification in certain cases.",
-            "Added missing translations."
-        ]
+    "Added a descriptive header for TriggerAlarm explaining its purpose and the coords parameter.",
+    "Added separate alarm functions for different crime scene actions.",
+    "TriggerAlarm(source, coords) is now called after all evidence has been loaded into the vehicle.",
+    "TriggerAlarm2(source, coords) is now called after the vehicle has been destroyed.",
+    "Added comments explaining when each alarm function is triggered.",
+    "Added comments describing the source parameter usage on both server-side and client-side."
+  ]
     },
     "devhub_guidebook": {
         "version": "1.0.1",
