@@ -141,13 +141,13 @@
     "devhub_crimeScenes": {
         "version": "1.1.2",
         "changelog": [
-    "Added a descriptive header for TriggerAlarm explaining its purpose and the coords parameter.",
-    "Added separate alarm functions for different crime scene actions.",
-    "TriggerAlarm(source, coords) is now called after all evidence has been loaded into the vehicle.",
-    "TriggerAlarm2(source, coords) is now called after the vehicle has been destroyed.",
-    "Added comments explaining when each alarm function is triggered.",
-    "Added comments describing the source parameter usage on both server-side and client-side."
-  ]
+            "Added a descriptive header for TriggerAlarm explaining its purpose and the coords parameter.",
+            "Added separate alarm functions for different crime scene actions.",
+            "TriggerAlarm(source, coords) is now called after all evidence has been loaded into the vehicle.",
+            "TriggerAlarm2(source, coords) is now called after the vehicle has been destroyed.",
+            "Added comments explaining when each alarm function is triggered.",
+            "Added comments describing the source parameter usage on both server-side and client-side."
+        ]
     },
     "devhub_guidebook": {
         "version": "1.0.1",
@@ -208,14 +208,18 @@
         "version": "1.2.1",
         "changelog": ["Slight radio performance optimization for smoother usage.", "Config.HideMemberList added, allowing the radio member list to be hidden (requested by a customer)."]
     },
+    "devhub_carMeet": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
+    },
     "devhub_crafting": {
         "version": "1.2.2",
         "changelog": [
-    "Fixed Time Reduction skill calculation when using DevHub SkillTree.",
-    "Fixed Double Crafting Chance and XP Boost not applying correctly.",
-    "Material Preservation has been reworked to roll the chance per ingredient instead of applying it to all ingredients at once.",
-    "Added missing Config.RareDrops table for rare drop rewards after crafting when using DevHub SkillTree.",
-    "If you are not using DevHub SkillTree, this update is not required."
-  ]
+            "Fixed Time Reduction skill calculation when using DevHub SkillTree.",
+            "Fixed Double Crafting Chance and XP Boost not applying correctly.",
+            "Material Preservation has been reworked to roll the chance per ingredient instead of applying it to all ingredients at once.",
+            "Added missing Config.RareDrops table for rare drop rewards after crafting when using DevHub SkillTree.",
+            "If you are not using DevHub SkillTree, this update is not required."
+        ]
     }
 }
