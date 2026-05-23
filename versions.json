@@ -208,7 +208,7 @@
         "version": "1.2.1",
         "changelog": ["Slight radio performance optimization for smoother usage.", "Config.HideMemberList added, allowing the radio member list to be hidden (requested by a customer)."]
     },
-    "devhub_carMeet": {
+    "devhub_carThief": {
         "version": "1.0.0",
         "changelog": ["Initial release"]
     },
