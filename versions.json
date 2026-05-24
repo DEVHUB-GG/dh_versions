@@ -139,15 +139,10 @@
         "changelog": ["Initial release"]
     },
     "devhub_crimeScenes": {
-        "version": "1.1.2",
+        "version": "1.1.3",
         "changelog": [
-            "Added a descriptive header for TriggerAlarm explaining its purpose and the coords parameter.",
-            "Added separate alarm functions for different crime scene actions.",
-            "TriggerAlarm(source, coords) is now called after all evidence has been loaded into the vehicle.",
-            "TriggerAlarm2(source, coords) is now called after the vehicle has been destroyed.",
-            "Added comments explaining when each alarm function is triggered.",
-            "Added comments describing the source parameter usage on both server-side and client-side."
-        ]
+      "Fixed an issue where players sometimes did not receive GPS directions to the crime scene location after entering the vehicle."
+    ]
     },
     "devhub_guidebook": {
         "version": "1.0.1",
@@ -173,22 +168,18 @@
         "changelog": ["Required actions added for crime trader missions.", "Improved the way external apps are added to minimize issues with them appearing as not owned."]
     },
     "devhub_airDrops": {
-        "version": "1.1.3",
+        "version": "1.1.4",
         "changelog": [
-            "New npcdialog system added for immersive interaction with the mission NPC.",
-            "New optional requirements system added for starting missions.",
-            "Mission requirements are now displayed inside the laptop UI.",
-            "Mission requirements are now displayed inside the NPC dialog interface."
-        ]
+      "Fixed guards spawning incorrectly.",
+      "Fixed airdrops sinking under the ground."
+    ]
     },
     "devhub_houseRobbery": {
-        "version": "1.1.5",
+        "version": "1.1.6",
         "changelog": [
-            "New npcdialog system added for immersive interaction with the mission NPC.",
-            "New optional requirements system added for starting missions.",
-            "Mission requirements are now displayed inside the laptop UI.",
-            "Mission requirements are now displayed inside the NPC dialog interface."
-        ]
+      "Fixed an issue where players could sometimes fall under the map after entering a house.",
+      "Removed server console warnings."
+    ]
     },
     "devhub_truckRobbery": {
         "version": "1.1.3",
@@ -213,13 +204,10 @@
         "changelog": ["Initial release"]
     },
     "devhub_crafting": {
-        "version": "1.2.2",
+        "version": "1.2.3",
         "changelog": [
-            "Fixed Time Reduction skill calculation when using DevHub SkillTree.",
-            "Fixed Double Crafting Chance and XP Boost not applying correctly.",
-            "Material Preservation has been reworked to roll the chance per ingredient instead of applying it to all ingredients at once.",
-            "Added missing Config.RareDrops table for rare drop rewards after crafting when using DevHub SkillTree.",
-            "If you are not using DevHub SkillTree, this update is not required."
-        ]
+      "Fixed console warnings.",
+      "Fixed item-based crafting, it should now work correctly."
+    ]
     }
 }
