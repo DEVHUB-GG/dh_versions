@@ -56,12 +56,46 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "2.2.5",
+        "version": "3.0.0",
+
         "changelog": [
-            "Added automatic system to synchronize cached client XP 2 minutes before a scheduled txAdmin restart.",
-            "Added client event 'devhub_skillTree:client:forceSyncOfCachedXp' to manually trigger synchronization of cached XP.",
-            "Two development commands added (commented out by default) in configs/s.main.lua: '/addXp [category] [amount]' and '/addPoints [category] [amount]'.",
-            "Commands are disabled by default due to lack of restriction checks and are intended only for development use until the next devhub_lib update adds proper security."
+            "Skill degradation system added.",
+            "Daily max XP limit system added.",
+            "Category grouping support added.",
+            "Premium currency support added.",
+            "Built-in backup system added with automatic and manual backup options.",
+            "New predefined XP earning methods added, now 11 total.",
+            "In-game generator massively improved, almost everything can now be managed directly through the in-game UI.",
+            "Full admin panel added with player search, unlocked skills preview, XP and points management, and skill unlocking.",
+            "Skill Tree Generator moved to the admin menu, so it no longer needs to be disabled in production.",
+            "Unlimited skill tree rows added. The previous limit was 9.",
+            "Added 3 new themes: modern, zombie, and fantasy.",
+            "Config option added to manage sender listeners. Unused or legacy listeners can now be disabled to reduce network traffic.",
+            "Automatic SQL import system added.",
+            "UI Lua function editor added for custom unlock requirements and category visibility, including helper functions.",
+            "Skill degradation settings added to the generator.",
+            "Option added to trigger custom client and server events when a skill is unlocked.",
+            "Built-in category configuration through the UI added.",
+            "GIF/Image visualization support added to the generator UI.",
+            "Option added to set an icon for each category.",
+            "Primary color definition added for each theme in colors.css.",
+            "Custom CSS classes per theme added for easier UI customization.",
+            "New option added to unlock skills using premium currency. Optional mode skips all other requirements, while required mode adds premium currency as an additional requirement.",
+            "UI state management improved.",
+            "Type checking in the UI improved.",
+            "Generator UI layout improved and made more compact.",
+            "Helper popup in the generator UI improved.",
+            "Script security improved.",
+            "Skill Tree Generator controls improved. Hold a skill to move it, or right-click multiple skills and drag them together using left-click.",
+            "colors.css minified to include only essential colors.",
+            "Reset skills system adapted to the new environment.",
+            "Config.EarnXp updated. Each category can now define different XP values per activity.",
+            "s.helpers.lua added to the config folder and made open source.",
+            "Skill Tree Generator should also be updated.",
+            "New version is available on Keymaster in the Skill Tree resource.",
+            "Backup of the script and database is recommended before switching to the beta version.",
+            "Almost every file has been changed in some way, so a full transition is required.",
+            "New Skill Tree Generator tutorial video is available"
         ]
     },
     "dh_miner": {
@@ -140,9 +174,7 @@
     },
     "devhub_crimeScenes": {
         "version": "1.1.3",
-        "changelog": [
-      "Fixed an issue where players sometimes did not receive GPS directions to the crime scene location after entering the vehicle."
-    ]
+        "changelog": ["Fixed an issue where players sometimes did not receive GPS directions to the crime scene location after entering the vehicle."]
     },
     "devhub_guidebook": {
         "version": "1.0.1",
@@ -169,17 +201,11 @@
     },
     "devhub_airDrops": {
         "version": "1.1.4",
-        "changelog": [
-      "Fixed guards spawning incorrectly.",
-      "Fixed airdrops sinking under the ground."
-    ]
+        "changelog": ["Fixed guards spawning incorrectly.", "Fixed airdrops sinking under the ground."]
     },
     "devhub_houseRobbery": {
         "version": "1.1.6",
-        "changelog": [
-      "Fixed an issue where players could sometimes fall under the map after entering a house.",
-      "Removed server console warnings."
-    ]
+        "changelog": ["Fixed an issue where players could sometimes fall under the map after entering a house.", "Removed server console warnings."]
     },
     "devhub_truckRobbery": {
         "version": "1.1.3",
@@ -205,9 +231,6 @@
     },
     "devhub_crafting": {
         "version": "1.2.3",
-        "changelog": [
-      "Fixed console warnings.",
-      "Fixed item-based crafting, it should now work correctly."
-    ]
+        "changelog": ["Fixed console warnings.", "Fixed item-based crafting, it should now work correctly."]
     }
 }
