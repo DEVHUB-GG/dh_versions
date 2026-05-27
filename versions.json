@@ -56,7 +56,7 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "3.0.0",
+        "version": "3.0.1",
 
         "changelog": [
             "Skill degradation system added.",
@@ -95,7 +95,9 @@
             "New version is available on Keymaster in the Skill Tree resource.",
             "Backup of the script and database is recommended before switching to the beta version.",
             "Almost every file has been changed in some way, so a full transition is required.",
-            "New Skill Tree Generator tutorial video is available"
+            "New Skill Tree Generator tutorial video is available",
+            "3.0.1",
+            "Fixed an issue where the Skill Tree was not loading correctly in the standard version."
         ]
     },
     "dh_miner": {
