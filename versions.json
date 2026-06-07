@@ -236,14 +236,7 @@
         "changelog": ["Fixed console warnings.", "Fixed item-based crafting, it should now work correctly."]
     },
     "devhub_licenses": {
-        "version": "1.0.1",
-        "changelog": [
-            "Local image hosting API added for license avatar photos, allowing avatar images to be stored and served through the built-in local API system.",
-            "License avatar photo handling is now fully automatic, so no additional setup or configuration changes are required.",
-            "Discord and Imgur options removed from Config.Screenshot.",
-            "Previous screenshot hosting methods replaced with the new local API system.",
-            "Fixed assets causing crashes on some game build versions.",
-            "Assets should be reinstalled to apply the fix properly."
-        ]
+        "version": "1.0.2",
+        "changelog": ["Fixed collisions with one of the hideout props.", "Improved cleanup of hideout props."]
     }
 }
