@@ -236,7 +236,11 @@
         "changelog": ["Fixed console warnings.", "Fixed item-based crafting, it should now work correctly."]
     },
     "devhub_licenses": {
-        "version": "1.0.2",
-        "changelog": ["Fixed collisions with one of the hideout props.", "Improved cleanup of hideout props."]
+        "version": "1.0.3",
+        "changelog": [
+            "Fixed collisions with one of the hideout props.",
+            "Improved cleanup of hideout props.",
+            "Adjusted the laptop integration for better compatibility and smoother communication between systems."
+        ]
     }
 }
