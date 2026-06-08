@@ -168,9 +168,7 @@
     },
     "devhub_hackingMinigames": {
         "version": "1.0.1",
-        "changelog": [
-    "Fixed the Signal minigame issue where clicking the reset button was setting the correct values required to complete the minigame."
-  ]
+        "changelog": ["Fixed the Signal minigame issue where clicking the reset button was setting the correct values required to complete the minigame."]
     },
     "devhub_craftingMinigames": {
         "version": "1.0.0",
@@ -243,6 +241,15 @@
             "Fixed collisions with one of the hideout props.",
             "Improved cleanup of hideout props.",
             "Adjusted the laptop integration for better compatibility and smoother communication between systems."
+        ]
+    },
+    "devhub_grid": {
+        "version": "1.0.1",
+        "changelog": [
+            "Added a debug system to make troubleshooting easier.",
+            "Added a versioning system for better update tracking.",
+            "Config has been decrypted and is now easier to edit.",
+            "Automatic prints have been removed to keep the console cleaner."
         ]
     }
 }
