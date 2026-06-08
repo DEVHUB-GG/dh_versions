@@ -167,7 +167,7 @@
         ]
     },
     "devhub_hackingMinigames": {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "changelog": [
     "Fixed the Signal minigame issue where clicking the reset button was setting the correct values required to complete the minigame."
   ]
