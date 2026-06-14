@@ -214,5 +214,9 @@
             "Config has been decrypted and is now easier to edit.",
             "Automatic prints have been removed to keep the console cleaner."
         ]
+    },
+    "devhub_trainHeist": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
     }
 }
