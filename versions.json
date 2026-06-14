@@ -56,9 +56,12 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "3.0.2",
-
-        "changelog": ["Fixed an issue in version 3 where skills were reloaded incorrectly when switching characters without leaving the server."]
+        "version": "3.0.3",
+        "changelog": [
+            "Improved error handling in the Skill Tree Generator to provide more stable and reliable generation.",
+            "Added better validation flow to reduce unexpected issues during skill tree creation.",
+            "Improved handling of invalid or incomplete generator data."
+        ]
     },
     "dh_miner": {
         "version": "1.0.5",
