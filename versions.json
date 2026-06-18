@@ -56,11 +56,14 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "3.0.3",
+        "version": "3.1.0",
         "changelog": [
-            "Improved error handling in the Skill Tree Generator to provide more stable and reliable generation.",
-            "Added better validation flow to reduce unexpected issues during skill tree creation.",
-            "Improved handling of invalid or incomplete generator data."
+            "Critical fix for a rare case where skill data could be overwritten across all players if the framework returned an invalid or empty player identifier during a resource restart.",
+            "This mainly affected servers using MySQL/MariaDB with strict SQL mode disabled.",
+            "Added player identifier validation before any database read or write operation.",
+            "Added safe database protection: the script now skips the operation and prints a warning when a valid player identifier is missing.",
+            "This issue is not specific to v3. Earlier versions of the Skill Tree may also be affected.",
+            "Servers running strict SQL mode were not affected, as the invalid query would fail instead of modifying data."
         ]
     },
     "dh_miner": {
@@ -199,11 +202,13 @@
         "changelog": ["Fixed console warnings.", "Fixed item-based crafting, it should now work correctly."]
     },
     "devhub_licenses": {
-        "version": "1.0.3",
+        "version": "1.0.4",
         "changelog": [
-            "Fixed collisions with one of the hideout props.",
-            "Improved cleanup of hideout props.",
-            "Adjusted the laptop integration for better compatibility and smoother communication between systems."
+            "Images added for all license items.",
+            "Pre-made items added for every license.",
+            "License items are now connected directly to the license system, making them fully Plug and Play.",
+            "Restored the proper way of getting data from devhub_lib in Config.DataFields.",
+            "Simplified Config.Screenshot configuration."
         ]
     },
     "devhub_grid": {
