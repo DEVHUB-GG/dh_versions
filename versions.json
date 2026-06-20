@@ -56,14 +56,10 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "3.1.0",
+        "version": "3.1.1",
         "changelog": [
-            "Critical fix for a rare case where skill data could be overwritten across all players if the framework returned an invalid or empty player identifier during a resource restart.",
-            "This mainly affected servers using MySQL/MariaDB with strict SQL mode disabled.",
-            "Added player identifier validation before any database read or write operation.",
-            "Added safe database protection: the script now skips the operation and prints a warning when a valid player identifier is missing.",
-            "This issue is not specific to v3. Earlier versions of the Skill Tree may also be affected.",
-            "Servers running strict SQL mode were not affected, as the invalid query would fail instead of modifying data."
+            "Fixed the display of the new generator page on ultra-wide monitors.",
+            "Fixed identifier validation introduced in the previous update, which incorrectly rejected numeric identifiers used mostly in vRP or multicharacter systems."
         ]
     },
     "dh_miner": {
@@ -194,21 +190,18 @@
         "changelog": ["Slight radio performance optimization for smoother usage.", "Config.HideMemberList added, allowing the radio member list to be hidden (requested by a customer)."]
     },
     "devhub_carThief": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": ["Config files are now unescrowed."]
     },
     "devhub_crafting": {
         "version": "1.2.3",
         "changelog": ["Fixed console warnings.", "Fixed item-based crafting, it should now work correctly."]
     },
     "devhub_licenses": {
-        "version": "1.0.4",
+        "version": "1.0.5",
         "changelog": [
-            "Images added for all license items.",
-            "Pre-made items added for every license.",
-            "License items are now connected directly to the license system, making them fully Plug and Play.",
-            "Restored the proper way of getting data from devhub_lib in Config.DataFields.",
-            "Simplified Config.Screenshot configuration."
+            "Fixed incorrect rendering when switching between horizontal and vertical license cards.",
+            "Rejected license show attempts, such as cooldown or missing data, no longer trigger the animation or prop."
         ]
     },
     "devhub_grid": {
