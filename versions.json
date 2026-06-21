@@ -202,13 +202,8 @@
         "changelog": ["Fixed an issue where the license animation was displayed incorrectly when using licenses as an item."]
     },
     "devhub_grid": {
-        "version": "1.0.1",
-        "changelog": [
-            "Added a debug system to make troubleshooting easier.",
-            "Added a versioning system for better update tracking.",
-            "Config has been decrypted and is now easier to edit.",
-            "Automatic prints have been removed to keep the console cleaner."
-        ]
+        "version": "1.0.2",
+        "changelog": ["Fixed issue with debugPrint"]
     },
     "devhub_trainHeist": {
         "version": "1.0.0",
