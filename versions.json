@@ -198,11 +198,8 @@
         "changelog": ["Fixed console warnings.", "Fixed item-based crafting, it should now work correctly."]
     },
     "devhub_licenses": {
-        "version": "1.0.5",
-        "changelog": [
-            "Fixed incorrect rendering when switching between horizontal and vertical license cards.",
-            "Rejected license show attempts, such as cooldown or missing data, no longer trigger the animation or prop."
-        ]
+        "version": "1.0.6",
+        "changelog": ["Fixed an issue where the license animation was displayed incorrectly when using licenses as an item."]
     },
     "devhub_grid": {
         "version": "1.0.1",
