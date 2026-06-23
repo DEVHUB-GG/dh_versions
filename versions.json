@@ -1,21 +1,25 @@
 {
     "dh_cartune": "1.0.0",
     "dh_cardance": "1.0.1",
-    "dh_lib": "3.0.5",
-    "devhub_lib": "3.0.5",
+    "dh_lib": "3.0.6",
+    "devhub_lib": "3.0.6",
     "devhub_lib_new": {
-        "version": "3.0.5",
-
+        "version": "3.0.6",
         "changelog": [
-            "Runtime startup warnings added for client and server when systems are not loaded.",
-            "Ready prints added on client and server startup.",
-            "Server notification added when compatibility tests start.",
-            "Compatibility tests now fail early when xsound is not started.",
-            "Sound module now safely checks for xsound and returns early if it is missing.",
-            "core_inventory exports are now used to fetch item metadata.",
-            "Item labels now safely fall back when metadata is missing.",
-            "Fixed carried item state by setting IsCarryingItem when adding a carried item.",
-            "Fixed target system loading in standalone version."
+            "New admin menu system added for future implementation.",
+            "Fixed an issue where canceling the progressbar could keep it busy in some cases.",
+            "Test command code removed from the gizmo file.",
+            "NPC dialog improved with HTML text support.",
+            "NPC dialog item selection UX improved.",
+            "Item option buttons in npcDialog now appear gray when the user has not selected any item.",
+            "Option added to display required items in npcDialog.",
+            "Fixed GetUserSkin for qb and qbox.",
+            "Client-side item caching improved, items are now cached only when requested by the user.",
+            "Improved item caching support for ak47_inventory, codem-inventory, core_inventory, qs-inventory, and tgiann-inventory.",
+            "slotData support added to all inventory integrations, allowing items to be used together with their metadata.",
+            "Fixed metadata item usage support, including devhub_licenses as an item.",
+            "Fixed GetItemData in core_inventory.",
+            "Fixed GetAllItems in codem-inventory."
         ]
     },
     "dh_skillTree": {
