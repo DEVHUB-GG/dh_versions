@@ -206,8 +206,9 @@
         "changelog": ["Fixed an issue where the license animation was displayed incorrectly when using licenses as an item."]
     },
     "devhub_grid": {
-        "version": "1.0.2",
-        "changelog": ["Fixed issue with debugPrint"]
+        "version": "1.0.3",
+
+        "changelog": ["Actions now work correctly even when the server has action keys disabled."]
     },
     "devhub_trainHeist": {
         "version": "1.0.0",
