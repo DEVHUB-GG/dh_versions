@@ -78,11 +78,8 @@
         ]
     },
     "devhub_miner": {
-        "version": "1.1.0",
-        "changelog": [
-            "Fixed an issue with the job ranking system not displaying or sorting correctly on some setups.",
-            "Removed the get_jobs_leaderboard SQL procedure due to compatibility issues with certain MariaDB versions"
-        ]
+        "version": "1.1.1",
+        "changelog": [ "Optimized events sent to the client, improving event handling and reducing unnecessary client-side data transfers." ]
     },
     "devhub_herbalAlchemist": {
         "version": "1.1.2",
@@ -198,8 +195,8 @@
         "changelog": ["Config files are now unescrowed."]
     },
     "devhub_crafting": {
-        "version": "1.2.3",
-        "changelog": ["Fixed console warnings.", "Fixed item-based crafting, it should now work correctly."]
+        "version": "1.2.4",
+        "changelog": [ "Fixed an issue where the blueprint crafting popup was displayed in the Crafting tab even when Blueprints were disabled for the crafting table." ]
     },
     "devhub_licenses": {
         "version": "1.0.6",
