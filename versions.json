@@ -79,7 +79,7 @@
     },
     "devhub_miner": {
         "version": "1.1.1",
-        "changelog": [ "Optimized events sent to the client, improving event handling and reducing unnecessary client-side data transfers." ]
+        "changelog": ["Optimized events sent to the client, improving event handling and reducing unnecessary client-side data transfers."]
     },
     "devhub_herbalAlchemist": {
         "version": "1.1.2",
@@ -196,11 +196,16 @@
     },
     "devhub_crafting": {
         "version": "1.2.4",
-        "changelog": [ "Fixed an issue where the blueprint crafting popup was displayed in the Crafting tab even when Blueprints were disabled for the crafting table." ]
+        "changelog": ["Fixed an issue where the blueprint crafting popup was displayed in the Crafting tab even when Blueprints were disabled for the crafting table."]
     },
     "devhub_licenses": {
-        "version": "1.0.6",
-        "changelog": ["Fixed an issue where the license animation was displayed incorrectly when using licenses as an item."]
+        "version": "1.1.0",
+        "changelog": [
+            "Added a new image hosting system, allowing you to connect and use your own image hosting solution.",
+            "Added support for the newly created free CDN at https://uploadhub.gg.",
+            "Added screenshot-basic as a required dependency for image uploading.",
+            "Replaced the previous self-hosted image system, which stopped working after FiveM removed reverse proxy support."
+        ]
     },
     "devhub_grid": {
         "version": "1.0.3",
