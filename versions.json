@@ -195,8 +195,11 @@
         "changelog": ["Config files are now unescrowed."]
     },
     "devhub_crafting": {
-        "version": "1.2.4",
-        "changelog": ["Fixed an issue where the blueprint crafting popup was displayed in the Crafting tab even when Blueprints were disabled for the crafting table."]
+        "version": "1.2.5",
+        "changelog": [
+"Fixed an issue where claiming a pending craft could fail when devhub_crafting had been disabled.",
+"Fixed an item duplication exploit caused by spamming the claim action while devhub_skillTree was disabled."
+]
     },
     "devhub_licenses": {
         "version": "1.1.0",
