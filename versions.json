@@ -96,12 +96,12 @@
         "changelog": ["Fixed an issue where skill spells were displaying a locked icon when both management systems were disabled."]
     },
     "devhub_drywoodCutter": {
-        "version": "1.1.5",
+        "version": "1.1.6",
 
         "changelog": [
-            "Added plate verification for the job vehicle in case the server loses the net ID.",
-            "Additional debug logs added to improve issue tracking.",
-            "Tree cutting job validation has been enhanced for better reliability."
+            "Improved the group system for better stability and coordination.",
+            "Improved tree synchronization between players.",
+            "Fixed target compatibility issues with older versions of ox_target."
         ]
     },
     "devhub_3dCraftingTable": {
