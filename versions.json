@@ -60,10 +60,27 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "3.1.1",
+        "version": "3.2.0",
         "changelog": [
-            "Fixed the display of the new generator page on ultra-wide monitors.",
-            "Fixed identifier validation introduced in the previous update, which incorrectly rejected numeric identifiers used mostly in vRP or multicharacter systems."
+            "Skill degradation states are now stored separately for each category and skill using category::uid, preventing conflicts between identically named skills in different categories.",
+            "Existing player degradation data is migrated automatically on first load, while orphaned entries belonging to removed skills are cleaned up.",
+            "Fully depleted skills now lose their effects immediately instead of keeping effects such as speed, health, or recoil modifiers active until the next login.",
+            "Skill effects are automatically restored when a degraded skill recovers.",
+            "Pre-made skill effects can no longer stack when the skill unlock event is triggered again, including after degradation recovery.",
+            "Reaching the maximum level in one category no longer prevents XP from being awarded to other categories during the same tick.",
+            "Buffered XP from Config.XpCacheLimit is now saved for the correct character during character switching instead of leaking to the next character.",
+            "Legacy dh_skillTree:client:listener:skillUnlocked events are replayed when the player loads, restoring perks used by legacy integrations.",
+            "Player death status is now tracked correctly, fixing Config.CloseUiOnDeath and the server-side death validation.",
+            "Last Stand weapon damage modifiers are now restored correctly for each weapon, and stale modifier entries are removed after switching weapons.",
+            "Damage Reduction now calculates reductions using the current health value instead of stale health data.",
+            "Keyboard navigation in the Skill Tree UI no longer crashes at grid boundaries or moves incorrectly between wrapped rows.",
+            "The getSkillEffect export now returns 0 for unknown categories or skills instead of returning a placeholder value on the client or throwing an error on the server.",
+            "Config.DisabledListeners entries are normalized when the resource loads and safely accept false, true, or partial client and server settings.",
+            "Configuration comments now document all supported listener formats and warn that disabling listeners may break dependent resources.",
+            "Server-side XP validation now rejects non-numeric, NaN, infinite, zero, and negative values.",
+            "Awarded XP values are now rounded down to whole numbers.",
+            "The Skill Tree generator now escapes special characters in category titles, groups, and icons, preventing characters such as apostrophes from corrupting generated skill configuration.",
+            "Save operations now have lower overhead when Config.Debug is disabled because unnecessary debug JSON encoding is skipped."
         ]
     },
     "dh_miner": {
