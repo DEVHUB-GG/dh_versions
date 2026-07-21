@@ -219,12 +219,34 @@
         ]
     },
     "devhub_licenses": {
-        "version": "1.1.0",
+        "version": "1.2.0",
+
         "changelog": [
-            "Added a new image hosting system, allowing you to connect and use your own image hosting solution.",
-            "Added support for the newly created free CDN at https://uploadhub.gg.",
-            "Added screenshot-basic as a required dependency for image uploading.",
-            "Replaced the previous self-hosted image system, which stopped working after FiveM removed reverse proxy support."
+            "Added backward compatibility with esx_license, including license checks, additions, removals, and license type mapping.",
+            "Added compatibility support for QB Core and Qbox license systems.",
+            "Added the issueLicense(source, targetSource, templateName, options) export for issuing licenses end-to-end in a single call.",
+            "The issueLicense export grants the required permission, creates the license record, gives the physical item, supports photo mode and custom avatar URLs, applies expiration settings, and returns the new licenseId.",
+            "Added support for avatarUrl, takePhoto, expirationDate, and expirationDays options in the issueLicense export.",
+            "Added the revokeLicense(source, targetSource, templateName, reason) export for fully revoking licenses in a single call.",
+            "The revokeLicense export removes permissions and NPC retrieval eligibility, revokes matching license records, removes the physical item, and stores the revocation reason.",
+            "Added a configurable photo mode parameter to addLicense() for licenses issued through external scripts.",
+            "Added clear success and error return values to all exports.",
+            "Added a separate issue-only menu for configured jobs.",
+            "Added configurable license availability for each retrieval NPC.",
+            "Added support for purchasing or obtaining selected licenses from an NPC after completing a configurable test or exam.",
+            "Added a global configuration option for disabling the NPC license shop system.",
+            "Added an option allowing players to mark their own licenses as lost.",
+            "Added automatic SQL installation and migration support using sql.sql.",
+            "Added an internal testing command for verifying script functionality, integrations, and exports.",
+            "Added missing translations.",
+            "Added a timeout to clear animations when taking an image fails.",
+            "Improved license integration workflows for external resources.",
+            "Improved export reliability and response handling.",
+            "Improved compatibility between permission checks, license records, physical items, and NPC retrieval systems.",
+            "Improved documentation for permission checks, license status checks, and physical item checks.",
+            "Clarified what the license refresh export updates and when it should be used.",
+            "Fixed and verified exports that were not behaving as expected.",
+            "Fixed the dashboard player name issue."
         ]
     },
     "devhub_grid": {
