@@ -182,8 +182,14 @@
         "changelog": ["Required actions added for crime trader missions.", "Improved the way external apps are added to minimize issues with them appearing as not owned."]
     },
     "devhub_airDrops": {
-        "version": "1.1.4",
-        "changelog": ["Fixed guards spawning incorrectly.", "Fixed airdrops sinking under the ground."]
+        "version": "1.2.0",
+        "changelog": [
+    "Added Shared.AbortPickupOnDeath, enabled by default, to cancel the open-crate minigame when the player dies or enters a downed state.",
+    "Added the ShouldAbortAirDropPickup(data) hook for custom pickup cancellation conditions, including framework-specific downed states or leaving the crate area.",
+    "The open-crate minigame is now cancelled when the crate despawns.",
+    "The server no longer grants loot to dead players.",
+    "Updated devhub_lib so Core.CloseProgressbar() properly aborts an active Core.ShowProgressbar() and triggers its callback with false."
+  ]
     },
     "devhub_houseRobbery": {
         "version": "1.1.6",
