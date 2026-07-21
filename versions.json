@@ -184,12 +184,12 @@
     "devhub_airDrops": {
         "version": "1.2.0",
         "changelog": [
-    "Added Shared.AbortPickupOnDeath, enabled by default, to cancel the open-crate minigame when the player dies or enters a downed state.",
-    "Added the ShouldAbortAirDropPickup(data) hook for custom pickup cancellation conditions, including framework-specific downed states or leaving the crate area.",
-    "The open-crate minigame is now cancelled when the crate despawns.",
-    "The server no longer grants loot to dead players.",
-    "Updated devhub_lib so Core.CloseProgressbar() properly aborts an active Core.ShowProgressbar() and triggers its callback with false."
-  ]
+            "Added Shared.AbortPickupOnDeath, enabled by default, to cancel the open-crate minigame when the player dies or enters a downed state.",
+            "Added the ShouldAbortAirDropPickup(data) hook for custom pickup cancellation conditions, including framework-specific downed states or leaving the crate area.",
+            "The open-crate minigame is now cancelled when the crate despawns.",
+            "The server no longer grants loot to dead players.",
+            "Updated devhub_lib so Core.CloseProgressbar() properly aborts an active Core.ShowProgressbar() and triggers its callback with false."
+        ]
     },
     "devhub_houseRobbery": {
         "version": "1.1.6",
@@ -205,9 +205,22 @@
         ]
     },
     "devhub_racing": {
-        "version": "1.0.9",
+        "version": "1.1.0",
 
-        "changelog": ["Fixed an issue where the racing app would sometimes not open in full screen mode."]
+        "changelog": [
+            "Incorrect text in the Races tab has been fixed.",
+            "Fixed an issue where the 3D race-join marker was displayed incorrectly when only one race was active.",
+            "Added an admin option in the race details menu to cancel a planned race.",
+            "Added a 20-second grace period after leaving a race vehicle. Players who do not return before the timer expires are removed from the race.",
+            "Improved the appearance of 3D race checkpoints.",
+            "Fixed force-started races triggered through the startRace command not finishing correctly.",
+            "Added the open client function ShouldShowJoinUi, allowing server owners to control when the 3D race-join UI is displayed.",
+            "Added the exports exports['devhub_racing']:JoinNearestRace() and exports['devhub_racing']:JoinRaceById(raceId), allowing server owners to create custom race-joining methods.",
+            "Improved race progress calculations for more accurate progress values.",
+            "Fixed race progress reaching 100% before the race was completed.",
+            "Fixed the 3D race UI being displayed while the map was open.",
+            "Added the open function ShouldShowBlip, allowing server owners to control race blip visibility."
+        ]
     },
     "devhub_radio": {
         "version": "1.2.1",
