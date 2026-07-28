@@ -278,7 +278,10 @@
         "changelog": ["Initial release"]
     },
     "devhub_gym2": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+    "Added support for colors.css, allowing UI colors to be customized from one place.",
+    "Changed the Gym Creator UI hide keybind from TAB to RIGHT SHIFT."
+  ]
     }
 }
