@@ -277,14 +277,18 @@
         "version": "1.0.0",
         "changelog": ["Initial release"]
     },
+    "devhub_pettyCrimes": {
+        "version": "1.0.3",
+        "changelog": ["Added an option in the petty crimes dispatch menu to send dispatch alerts when the activity starts, finishes, or at both stages."]
+    },
     "devhub_gym2": {
         "version": "1.0.2",
         "changelog": [
-    "Added optional daily stat decay, configurable through the Gym Creator.",
-    "Added server hooks triggered when a player joins and levels up.",
-    "Added translation support for exercise names and categories.",
-    "Fixed an issue where voice chat was interrupted during workouts.",
-    "Improved gym data loading speed."
-  ]
+            "Added optional daily stat decay, configurable through the Gym Creator.",
+            "Added server hooks triggered when a player joins and levels up.",
+            "Added translation support for exercise names and categories.",
+            "Fixed an issue where voice chat was interrupted during workouts.",
+            "Improved gym data loading speed."
+        ]
     }
 }
