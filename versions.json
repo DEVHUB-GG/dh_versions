@@ -155,8 +155,8 @@
         "changelog": ["Initial release"]
     },
     "devhub_crimeScenes": {
-        "version": "1.1.4",
-        "changelog": ["Added the StandaloneRewards function, allowing rewards to be granted directly to players when the laptop system is not used."]
+        "version": "1.1.5",
+        "changelog": ["Fixed an issue where the toggle doors option did not open all vehicle doors in some cases."]
     },
     "devhub_guidebook": {
         "version": "1.0.1",
