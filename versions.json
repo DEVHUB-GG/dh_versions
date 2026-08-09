@@ -159,13 +159,10 @@
         "changelog": ["Fixed an issue where the toggle doors option did not open all vehicle doors in some cases."]
     },
     "devhub_guidebook": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "changelog": [
-            "Documentation comments added in the config file explaining all available methods to open the guidebook.",
-            "Export function added to open the guidebook from other scripts: exports[\"devhub_guidebook\"].openGuideBook().",
-            "New client event to open the guidebook:\n- From client-side: TriggerEvent(\"dh_guidebook:client:openGuideBook\")\n- From server-side: TriggerClientEvent(\"dh_guidebook:client:openGuideBook\", source)",
-            "Command and keybind registration now only occurs when Config.OpenGuideBook.command is not nil.",
-            "Config.OpenGuideBook.command can now be set to nil to fully disable command registration."
+            "Added Config.DisableWhileDead, allowing the Guidebook to automatically close and preventing it from being opened while the player is dead.",
+            "Added support for HTML formatting inside Guidebook text, allowing the use of tags such as <br> and other HTML formatting elements."
         ]
     },
     "devhub_pauseMenu": {
@@ -283,9 +280,6 @@
     },
     "devhub_gym2": {
         "version": "1.0.3",
-        "changelog": [
-    "Fixed an issue where gym memberships were incorrectly shared between different zones.",
-    "Players can now purchase separate memberships in different gym zones as intended."
-  ]
+        "changelog": ["Fixed an issue where gym memberships were incorrectly shared between different zones.", "Players can now purchase separate memberships in different gym zones as intended."]
     }
 }
