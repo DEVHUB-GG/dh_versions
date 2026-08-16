@@ -279,7 +279,17 @@
         "changelog": ["Added an option in the petty crimes dispatch menu to send dispatch alerts when the activity starts, finishes, or at both stages."]
     },
     "devhub_gym2": {
-        "version": "1.0.3",
-        "changelog": ["Fixed an issue where gym memberships were incorrectly shared between different zones.", "Players can now purchase separate memberships in different gym zones as intended."]
+        "version": "1.0.4",
+        "changelog": [
+    "Added a server-side hook triggered when an exercise is completed.",
+    "Added a server-side hook triggered when an exercise starts.",
+    "Added a server-side hook for validating whether a player is allowed to start an exercise.",
+    "Added GrantMembership export for granting gym memberships.",
+    "Added RevokeMembership export for revoking gym memberships.",
+    "Added GetMembership export for retrieving gym membership information.",
+    "New membership exports have been documented.",
+    "Fixed maximum reps validation based on the gym configuration.",
+    "Exercises now correctly stop once the configured maxReps value is reached."
+  ]
     }
 }
