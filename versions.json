@@ -228,11 +228,11 @@
         "changelog": ["Config files are now unescrowed."]
     },
     "devhub_crafting": {
-        "version": "1.2.5",
+        "version": "1.2.6",
         "changelog": [
-            "Fixed an issue where claiming a pending craft could fail when devhub_crafting had been disabled.",
-            "Fixed an item duplication exploit caused by spamming the claim action while devhub_skillTree was disabled."
-        ]
+    "Added a comprehensive crafting debug mode displaying all crafting locations, camera positions, and detailed crafting information.",
+    "Added ID validation in the admin panel to prevent duplicate crafting IDs."
+  ]
     },
     "devhub_licenses": {
         "version": "1.2.0",
