@@ -230,9 +230,9 @@
     "devhub_crafting": {
         "version": "1.2.6",
         "changelog": [
-    "Added a comprehensive crafting debug mode displaying all crafting locations, camera positions, and detailed crafting information.",
-    "Added ID validation in the admin panel to prevent duplicate crafting IDs."
-  ]
+            "Added a comprehensive crafting debug mode displaying all crafting locations, camera positions, and detailed crafting information.",
+            "Added ID validation in the admin panel to prevent duplicate crafting IDs."
+        ]
     },
     "devhub_licenses": {
         "version": "1.2.0",
@@ -275,21 +275,24 @@
         "changelog": ["Initial release"]
     },
     "devhub_pettyCrimes": {
-        "version": "1.0.3",
-        "changelog": ["Added an option in the petty crimes dispatch menu to send dispatch alerts when the activity starts, finishes, or at both stages."]
+        "version": "1.0.4",
+        "changelog": [
+            "Config.Command = false now completely disables the command.",
+            "Animals are now automatically blacklisted from pickpocketing and mugging interactions, so they no longer need to be added manually to the blacklist."
+        ]
     },
     "devhub_gym2": {
         "version": "1.0.4",
         "changelog": [
-    "Added a server-side hook triggered when an exercise is completed.",
-    "Added a server-side hook triggered when an exercise starts.",
-    "Added a server-side hook for validating whether a player is allowed to start an exercise.",
-    "Added GrantMembership export for granting gym memberships.",
-    "Added RevokeMembership export for revoking gym memberships.",
-    "Added GetMembership export for retrieving gym membership information.",
-    "New membership exports have been documented.",
-    "Fixed maximum reps validation based on the gym configuration.",
-    "Exercises now correctly stop once the configured maxReps value is reached."
-  ]
+            "Added a server-side hook triggered when an exercise is completed.",
+            "Added a server-side hook triggered when an exercise starts.",
+            "Added a server-side hook for validating whether a player is allowed to start an exercise.",
+            "Added GrantMembership export for granting gym memberships.",
+            "Added RevokeMembership export for revoking gym memberships.",
+            "Added GetMembership export for retrieving gym membership information.",
+            "New membership exports have been documented.",
+            "Fixed maximum reps validation based on the gym configuration.",
+            "Exercises now correctly stop once the configured maxReps value is reached."
+        ]
     }
 }
