@@ -262,11 +262,8 @@
         "changelog": ["Initial release"]
     },
     "devhub_pettyCrimes": {
-        "version": "1.0.4",
-        "changelog": [
-            "Config.Command = false now completely disables the command.",
-            "Animals are now automatically blacklisted from pickpocketing and mugging interactions, so they no longer need to be added manually to the blacklist."
-        ]
+        "version": "1.0.5",
+        "changelog": ["Added open functions on both the client and server side, allowing for greater script customization and easier integration with external resources."]
     },
     "devhub_gym2": {
         "version": "1.0.4",
