@@ -155,29 +155,12 @@
     "devhub_crimeScenes": {
         "version": "1.1.6",
         "changelog": [
-            "Fixed the player who started the job sometimes seeing an empty crime scene while helpers saw everything. Failed object spawns are now retried.",
-            "Fixed blood floating in the air after the body under it was removed, which made it impossible to clean. Blood is now placed on the real ground.",
-            "Fixed the UV flashlight not revealing blood near an object that was already picked up or loaded into the van.",
-            "Fixed the UV flashlight pausing after revealing one blood splat.",
-            "Fixed scene objects sometimes spawning in the air or on top of the van or another object.",
-            "Fixed carried objects being put down on top of the van or another object instead of the ground.",
-            "Fixed two objects sometimes spawning in the same spot, and a possible server freeze when a location had too few spawn points.",
-            "Fixed the \"Burn object\" option on looted objects doing nothing.",
-            "Fixed players getting stuck turning toward an object another player had just picked up.",
-            "Fixed players staying stuck carrying an object when the job ended, and objects held by a player who logged out becoming impossible to pick up.",
-            "Fixed the van storage options still being available after the scene was cleaned.",
-            "Fixed the van storage editor opening twice, and the player and van staying frozen if it failed to open.",
-            "Fixed loading objects into the van not working after a restart during a job.",
-            "Fixed job vans, carried props and van storage zones being left behind after a resource restart.",
-            "Fixed the delayed van cleanup sometimes deleting a different vehicle.",
-            "Fixed vehicle disposal failing or using the wrong spot when more than one disposal type was enabled in Config.VehicleDisposal.",
-            "Fixed vehicle disposal (burn, drown, push off cliff) not working when another player drove the van last.",
-            "Fixed the police alert and vehicle disposal triggering twice when a scene was finished.",
-            "Fixed rewards and the final police alert being given when the job owner logged out before finishing.",
-            "Fixed duplicate objects appearing after a player reloaded their character.",
-            "Fixed the job owner receiving too few items when two object types use the same required item.",
-            "Fixed several job server events that could be triggered without doing the matching in-game step.",
-            "Changed carried objects so they can no longer be put down from inside a vehicle."
+            "Fixed the player who started the job sometimes seeing an empty crime scene while helpers saw everything.",
+            "Fixed blood floating in the air and becoming impossible to clean after the body under it was removed.",
+            "Fixed scene objects spawning in the air or on top of the van.",
+            "Fixed several issues with van storage and vehicle disposal.",
+            "Fixed vans, props and zones being left behind after a resource restart.",
+            "Improved server-side validation of job events."
         ]
     },
     "devhub_guidebook": {
