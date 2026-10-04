@@ -99,13 +99,11 @@
         "changelog": ["Optimized events sent to the client, improving event handling and reducing unnecessary client-side data transfers."]
     },
     "devhub_herbalAlchemist": {
-        "version": "1.1.2",
+        "version": "1.1.3",
         "changelog": [
-            "Significant server performance improvements, reduced load during herb spawning and harvesting.",
-            "Optimized network synchronization, lower data transfer usage between server and clients.",
-            "Improved client-side herb rendering, reduced FPS impact in areas with a high number of plants.",
-            "Fixed an issue that could cause player data duplication in the database.",
-            "Fixed a potential client freeze when removing objects from the map."
+            "Added Config.HerbBlipCategory in configs/client.lua to set the map legend category id and name for herb blips. Set it to false to list them separately.",
+            "Fixed herbalism skill tree boosts not being applied when the legacy dh_skillTree events were disabled in devhub_skillTree.",
+            "Improved the map legend by grouping all herb blips into one \"Herbs\" category instead of listing each herb separately."
         ]
     },
     "devhub_skillSelection": {
@@ -155,8 +153,32 @@
         "changelog": ["Initial release"]
     },
     "devhub_crimeScenes": {
-        "version": "1.1.5",
-        "changelog": ["Fixed an issue where the toggle doors option did not open all vehicle doors in some cases."]
+        "version": "1.1.6",
+        "changelog": [
+            "Fixed the player who started the job sometimes seeing an empty crime scene while helpers saw everything. Failed object spawns are now retried.",
+            "Fixed blood floating in the air after the body under it was removed, which made it impossible to clean. Blood is now placed on the real ground.",
+            "Fixed the UV flashlight not revealing blood near an object that was already picked up or loaded into the van.",
+            "Fixed the UV flashlight pausing after revealing one blood splat.",
+            "Fixed scene objects sometimes spawning in the air or on top of the van or another object.",
+            "Fixed carried objects being put down on top of the van or another object instead of the ground.",
+            "Fixed two objects sometimes spawning in the same spot, and a possible server freeze when a location had too few spawn points.",
+            "Fixed the \"Burn object\" option on looted objects doing nothing.",
+            "Fixed players getting stuck turning toward an object another player had just picked up.",
+            "Fixed players staying stuck carrying an object when the job ended, and objects held by a player who logged out becoming impossible to pick up.",
+            "Fixed the van storage options still being available after the scene was cleaned.",
+            "Fixed the van storage editor opening twice, and the player and van staying frozen if it failed to open.",
+            "Fixed loading objects into the van not working after a restart during a job.",
+            "Fixed job vans, carried props and van storage zones being left behind after a resource restart.",
+            "Fixed the delayed van cleanup sometimes deleting a different vehicle.",
+            "Fixed vehicle disposal failing or using the wrong spot when more than one disposal type was enabled in Config.VehicleDisposal.",
+            "Fixed vehicle disposal (burn, drown, push off cliff) not working when another player drove the van last.",
+            "Fixed the police alert and vehicle disposal triggering twice when a scene was finished.",
+            "Fixed rewards and the final police alert being given when the job owner logged out before finishing.",
+            "Fixed duplicate objects appearing after a player reloaded their character.",
+            "Fixed the job owner receiving too few items when two object types use the same required item.",
+            "Fixed several job server events that could be triggered without doing the matching in-game step.",
+            "Changed carried objects so they can no longer be put down from inside a vehicle."
+        ]
     },
     "devhub_guidebook": {
         "version": "1.0.2",
@@ -258,25 +280,45 @@
         "changelog": ["Actions now work correctly even when the server has action keys disabled."]
     },
     "devhub_trainHeist": {
-        "version": "1.0.0",
-        "changelog": ["Initial release"]
+        "version": "1.0.1",
+        "changelog": [
+            "Added detailed step-by-step console logs for the whole heist, shown when Shared.Debug.Enabled is turned on in configs/shared.lua.",
+            "Fixed the antenna hacking monitor not spawning on older game builds, which blocked the heist. Its model now ships in the new stream folder.",
+            "Fixed the train's cargo wagons disappearing on the way to the interception point, which put the loot on the locomotive instead of the open wagons.",
+            "Fixed ox_target warnings in the F8 console about removing zones that do not exist.",
+            "Fixed developer test commands being available to every player. They now only exist with Shared.Debug.Enabled on and are limited to admins.",
+            "Fixed server errors caused by invalid data in the heist end event and the AddToQueue, RemoveFromQueue and GetQueuePosition exports.",
+            "Changed debug settings to a single switch, Shared.Debug.Enabled in configs/shared.lua. Config.Debug was removed from configs/client.lua and configs/server.lua.",
+            "Changed the console to stay quiet with debug off, except for errors, which always print and are limited so they cannot flood the console."
+        ]
     },
     "devhub_pettyCrimes": {
         "version": "1.0.5",
         "changelog": ["Added open functions on both the client and server side, allowing for greater script customization and easier integration with external resources."]
     },
     "devhub_gym2": {
-        "version": "1.0.4",
+        "version": "1.0.5",
         "changelog": [
-            "Added a server-side hook triggered when an exercise is completed.",
-            "Added a server-side hook triggered when an exercise starts.",
-            "Added a server-side hook for validating whether a player is allowed to start an exercise.",
-            "Added GrantMembership export for granting gym memberships.",
-            "Added RevokeMembership export for revoking gym memberships.",
-            "Added GetMembership export for retrieving gym membership information.",
-            "New membership exports have been documented.",
-            "Fixed maximum reps validation based on the gym configuration.",
-            "Exercises now correctly stop once the configured maxReps value is reached."
+            "Added Config.ExerciseLoading in configs/client.lua to set the exercise download timeout (timeoutMs) and to pre-download exercise animations when gym equipment is nearby (prewarm).",
+            "Added a loading hint while an exercise downloads. The start is canceled with a notification if the download times out or the player walks away.",
+            "Added skill degradation settings to every gym skill in configs/skillTree.lua, used when skill degradation is enabled in devhub_skillTree.",
+            "Fixed players getting stuck in gym equipment on slow connections. Animations and props (including boxing gloves and the jump rope) now download before the set starts.",
+            "Fixed players staying locked in place when an exercise animation failed to load.",
+            "Fixed leaving an exercise stalling on slow connections, which also left the dumbbells in hand on the shoulder press and seated lateral raise.",
+            "Fixed the idle cinematic camera kicking in during long sets and while spotting another player.",
+            "Fixed the gym menu sometimes ignoring clicks after a minigame ended.",
+            "Fixed the IsBusinessPanelOpen and GetCurrentBusinessId client exports always reporting that no panel was open.",
+            "Fixed one malformed gym entry in the database stopping the remaining equipment and interaction points from spawning.",
+            "Fixed gym profiles staying loaded after players disconnected, which made memory use and autosaves grow over time.",
+            "Fixed player load and unload events accepting requests made on behalf of another player.",
+            "Fixed Execution of function reference in script host failed errors after restarting devhub_gym2.",
+            "Improved client performance by removing a 12 to 22 ms frame spike every 3 seconds caused by gym prop spawning, and by skipping gyms far from the player.",
+            "Improved client performance of the background loops for removed map props, ped clearing and exercise controls.",
+            "Improved server performance by caching online player identifiers for business updates, employee calls, helper prompts and wage payouts.",
+            "Improved server performance by looking up character names once per session instead of on every exercise start and gym menu open.",
+            "Improved server performance when saving gym settings in the creator with many players online.",
+            "Improved the fatigue recovery and autosave loops to spread their work over several frames.",
+            "Changed error messages to always print in the console, even with debug disabled. Repeats are limited to once every 30 seconds."
         ]
     }
 }
