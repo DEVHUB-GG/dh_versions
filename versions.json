@@ -299,10 +299,11 @@
     "devhub_gym2": {
         "version": "1.0.5",
         "changelog": [
-            "Added Config.ExerciseLoading in configs/client.lua to set the exercise download timeout (timeoutMs) and to pre-download exercise animations when gym equipment is nearby (prewarm).",
-            "Added a loading hint while an exercise downloads. The start is canceled with a notification if the download times out or the player walks away.",
+            "Added a check that makes sure all exercise props and animations are loaded and spawned before a set starts.",
+            "Added Config.ExerciseLoading in configs/client.lua to set the loading timeout (timeoutMs) and to pre-download exercise animations when gym equipment is nearby (prewarm).",
+            "Added a loading hint while an exercise loads. The start is canceled with a notification if loading times out or the player walks away.",
             "Added skill degradation settings to every gym skill in configs/skillTree.lua, used when skill degradation is enabled in devhub_skillTree.",
-            "Fixed players getting stuck in gym equipment on slow connections. Animations and props (including boxing gloves and the jump rope) now download before the set starts.",
+            "Fixed the gym for players with a slow internet connection, who could get stuck in the equipment while props or animations were still loading.",
             "Fixed players staying locked in place when an exercise animation failed to load.",
             "Fixed leaving an exercise stalling on slow connections, which also left the dumbbells in hand on the shoulder press and seated lateral raise.",
             "Fixed the idle cinematic camera kicking in during long sets and while spotting another player.",
