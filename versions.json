@@ -304,5 +304,9 @@
             "Improved the fatigue recovery and autosave loops to spread their work over several frames.",
             "Changed error messages to always print in the console, even with debug disabled. Repeats are limited to once every 30 seconds."
         ]
+    },
+    "devhub_drivingSchool": {
+        "version": "1.0.0",
+        "changelog": ["Initial release"]
     }
 }
