@@ -139,12 +139,8 @@
         ]
     },
     "devhub_loadingscreen": {
-        "version": "1.0.5",
-        "changelog": [
-            "Error 'ERR_REQUEST_RANGE_NOT_SATISFIABLE' caused by the default .ogg music file has been fixed.",
-            "Default .ogg music file replaced with a .mp3 version (different song).",
-            "User sound volume is now saved in local storage, so users only need to set it once."
-        ]
+        "version": "1.0.6",
+        "changelog": ["Fix to the FiveM client update to CEF 144 on Latest  and Beta versions of Fivem."]
     },
     "devhub_hackingMinigames": {
         "version": "1.0.2",
