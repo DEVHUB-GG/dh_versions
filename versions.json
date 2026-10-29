@@ -62,7 +62,7 @@
         ]
     },
     "devhub_skillTree": {
-        "version": "3.2.1",
+        "version": "3.2.2",
         "changelog": [
             "Fixed an issue where the daily XP limit did not account for XP granted through exports.",
             "Added an optional parameter to XP exports to control whether granted XP counts toward the daily XP limit."
